@@ -1,0 +1,50 @@
+body {background-color:#ccc; width:100%; margin: auto;}
+
+.banner {float:left; width:100%; height:200px; background-color:#0099ff;}
+
+#page {width:1000px; overflow:hidden; margin:auto; background-color: #ccc;}
+
+#head {position:fixed; width:1000px; height:200px; margin:0 0 0 0; border-bottom:5px solid #0099ff;}
+
+div.topImage {float:left; background-color:#ccc; width:400px; height:200px; margin:0 0 0 -25px}
+
+/*topnav dropdown menu*/
+div.topnav {float:left; width:600px; margin: 0 0 0 5px; height:200px; background-color:#ccc; padding:0;}
+div.topnav ul {float:left; width:600px; height:30px; font-size:100px; background-color:transparent; margin:108px 0 0 -42px; padding:0; color:#0099ff; list-style-type:none;}
+div.topnav li {display: block; height:30px; margin:0; float:left; clear:none;}
+div.topnav li:hover {list-style-type:none; background:transparent; display:block;}
+div.topnav li a {color:#0099ff; text-decoration:none; display:block !important; width:600px; height:90px; padding:0;}
+
+.travcaldwell {width:600px;}
+.portfolio {width:110px;}
+.projects {width:110px;}
+.about {width:90px;}
+.racing {width:110px;}
+
+/*!!!important!!!*/
+.topnav li ul {display:none; font-size:25px; float:left; clear:both; padding:0; width:500px; margin:5px 0 0 112px; border:0 solid; border-top:none;}
+.topnav li:hover ul {display:block; background-image:url("images/dropdown.png");}
+.topnav li ul li {float:left; text-align:left;}
+.topnav li ul li a:hover {color:#fff; background:transparent; text-decoration:underline;}
+/*topnav dropdown menu*/
+
+#content {float:left; width:1000px; overflow: hidden; margin:250px 0 100px 0; background-color: #ccc;}
+
+div.main {float:left; width:1000px; height:auto; background-color:#ccc; margin:0 0 0 10px;}
+div.main p {float:left; width:1000px; height:auto; margin: 10px auto; color:#cc0000; font-size:40px;}
+
+#bottomnav {float:left; width:100%; height:50px; margin:auto; background-color:#ccc;}
+
+.copywrite {float:left; width:200px; height:25px; margin:auto; color:#cc0000;}
+
+/**icon popup for social media links start**/
+div.social {float:left; width:350px; height:50px; margin:5px 0 0 0;}
+.iconSlide {overflow:hidden; border: none; width:344px; height:50px; margin: 0 0 0 0; padding:0;}
+.iconSlide li {float:left; width:56px; height:30px; margin:0 15px; list-style-type:none;}
+.iconSlide li a {width:50px; height:50px; display:block; padding:0 3px;}
+.iconSlide li.vimeo a {background:url(images/socialmedia/socialicon_vimeo.png) no-repeat 3px -40px; width:50px; height:50px;}
+.iconSlide li.youtube a {background:url(images/socialmedia/socialicon_youtube.png) no-repeat 3px -40px; width:50px; height:50px}
+.iconSlide li.facebook a {background:url(images/socialmedia/socialicon_facebook.png) no-repeat 3px -40px; width:50px; height:50px;}
+.iconSlide li.twitter a {background:url(images/socialmedia/socialicon_twitter.png) no-repeat 3px -40px; width:50px; height:50px;}
+.iconSlide li.vimeo a:hover, .iconSlide li.youtube a:hover, .iconSlide li.facebook a:hover, .iconSlide li.twitter a:hover {background-position:3px 0}
+/**icon popup for social media links end**/

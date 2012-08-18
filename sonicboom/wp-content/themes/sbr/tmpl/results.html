@@ -1,0 +1,35 @@
+<header>
+    <h3>{{year}} Race Statistics</h3>
+</header>
+
+<ul class="stats">
+    <li class="races">
+        <p class="header">Races</p>
+        <p>{{races}}</p>
+    </li>
+    <li class="wins">
+        <p class="header">Wins</p>
+        <p>{{wins}}</p>
+    </li>
+    <li class="podiums">
+        <p class="header">Podiums</p>
+        <p>{{podiums}}</p>
+    </li>
+</ul>
+
+{{#months}}
+<div class="resultsMonth">
+    <h4>{{month}}</h4>
+
+    {{#results}}
+    <dl>
+        <dt class="placing_{{placing}}">{{prettyPlacing}}</dt>
+        <dd class="{{rowClass}}">
+            <p class="name">{{name}}</p>
+            <p class="raceName">{{win}} {{event}} {{category}}</p>
+            <p class="date">{{prettyDate}}</p>
+        </dd>
+    </dl>
+    {{/results}}
+</div>
+{{/months}}

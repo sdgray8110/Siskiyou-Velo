@@ -1,0 +1,5 @@
+#facets h3 {margin:10px 0 0;}
+#facets ul {padding:0 0 0 15px; margin:0 0 10px 0;}
+#facets ul li {font-family:arial; font-size:11px; list-style-type:none;}
+#facets ul li a {background:url('checkboxsprite.png') no-repeat;  padding:0 0 0 20px; display:block; cursor:pointer}
+#facets li.active a {background-position:0 -20px}

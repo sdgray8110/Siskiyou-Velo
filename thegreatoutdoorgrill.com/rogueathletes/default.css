@@ -1,0 +1,127 @@
+.banner {float:left; width:100%; height:25px; background-color:#ff6600;}/*9bcbcb*/
+	
+/**main body div**/
+#body {width:1000px; height:auto; margin:auto; background-color:#ccffff;}
+
+
+
+.header {float:left; width:1000px; height:200px; margin: 45px 0 0 0; background-color:#fff; -moz-box-shadow:0 0 20px rgba(0, 0, 0, 1);}
+
+
+.headerbackground {float:left; width:950px; height:150px; margin:25px; padding:0; background-color:#fff; border:1px solid #ff6600;}
+
+.title {float:left; width:770px; height:35px; margin:29px 0 0 70px; background:transparent; border-bottom:1px solid #ff6600; font-family:Lucida Handwriting; font-size:2em; color: #006699;}
+.titleRachel {float:left; width:450px; height:35px; margin:0; background:transparent; border-bottom:1px solid #ff6600; font-family:Lucida Handwriting; font-size:2em; color: #006699;}
+.titleTravis {float:left; width:450px; height:35px; margin:0; background:transparent; border-bottom:1px solid #ff6600; font-family:Lucida Handwriting; font-size:2em; color: #006699;}
+.titlePhotogallery {float:left; width:900px; height:35px; margin:0 0 0 50px; background:transparent; border-bottom:1px solid #ff6600; font-family:Lucida Handwriting; font-size:2em; color: #006699;}
+
+
+.logo {float: left; width:100px; margin:0 0 0 10px;}
+
+/**top navigation bar starts here**/
+/**.Upper {float:left; width:auto; height:30px; margin:0; border-bottom:2px solid #fff; background-color:#cbcbcb; text-align:center;}**/
+
+.topNav {position:relative; width: 600px; margin:65px 0 0 350px; padding:0 0 0 0; height:30px; font-family:verdana; font-size:.9em; background-color:#ffcc66; border-bottom:1px solid #ff6600; -moz-box-shadow:0 0 20px rgba(0, 0, 0, 1);}
+.topNav li {display: block; height:25px; margin:5px 0 0 10px; float:left; clear:none; list-style-type:none}
+.topNav li:hover {list-style-type:none; background:transparent;}
+.topNav li a {color:#006699; text-decoration:none; display:block !important; width:100%; height:25px; padding:0;}
+.topNav li a:hover {color:#ff6600; text-decoration:none; background-color:transparent;}
+
+
+.about {width:100px;}/*background-color:transparent; text-align:center; border-left: 1px solid #000*/
+.about li a {color:#006699;}
+.gear {width:100px;}
+.gear li a {color:#006699;}
+.events {width:100px;}
+.events li a {color:#006699;}
+.athletes {width:100px;}
+.athletes li a {color:#006699;}
+.support {width:100px;}
+.support li a {color:#006699;}
+.affiliate {width:100px;}
+.affiliate li a {color:#006699;}
+
+.topNav li ul {display:none; float:left; clear:both; padding:0 0 0 10px; width:125px; margin:0px 0 0 -20px; border: 1px solid #ff6600;}
+.topNav li:hover ul {display:block; background-color:#ffcc66; border-top: 1px solid #ff6600;}/*if i need to use a transparent background image this is where it will need to go*/
+.topNav li ul li {width:100px; clear:both;}
+.topNav li ul li a:hover {color:#ff6600; background:transparent; text-decoration:underline;}
+/*top navigation bar ends here*/
+
+/*homepage main content starts here*/
+.mainImage {float:left; width:1000px; height:500px; background-color:#fff; margin:45px auto 0; -moz-box-shadow:0 0 20px rgba(0, 0, 0, 1);}
+.mainImage img {float:left; width:950px; height:450px; padding:25px;}
+
+.mainBackground {float:left; width:1000px; overflow:hidden; background-color:#fff; margin:45px auto 0; -moz-box-shadow:0 0 20px rgba(0, 0, 0, 1);}
+
+.mainContent {float:left; width:950px; overflow:hidden; margin:25px; padding:0px; color:#006699; background-color:#fff; border:1px solid #ff6600;}
+.mainContent p {padding:10px;}
+
+.mainRachel {float:left; width:450px; overflow:hidden; margin:0 0 0 25px; padding:0px; color:#006699; border-right:2px dotted #ff6600;}
+.mainRachel p {float:left; margin:0;}
+.mainRachel ul {float:left; width:450px; height:25px; margin:0; list-style-type:none; display:block; color:#ff6600;}
+.mainRachel li a {text-decoration:none; color:#ff6600;}
+.mainRachel li a:hover {text-decoration:underline; color:#ff6600;}
+
+.mainTravis {float:left; width:450px; overflow:hidden; margin:auto 0 0 23px; padding:0px; color:#006699;}
+.mainTravis p {float:left; margin:0;}
+.mainTravis ul {float:left; width:450px; height:25px; margin:0; list-style-type:none; display:block; color:#ff6600;}
+.mainTravis li a {text-decoration:none; color:#ff6600;}
+.mainTravis li a:hover {text-decoration:underline; color:#ff6600;}
+
+.photogallery ul {float:left; width:900px; height:25px; margin:0 0 0 50px; list-style-type:none; display:block; color:#ff6600;}
+.photogallery li a {text-decoration:none; color:#ff6600; list-style-type:none;}
+.photogallery li a:hover {text-decoration:underline; color:#ff6600;}
+
+
+.sectionOne {float:left; width:950px; height:auto; overflow:hidden; padding:25px; margin:45px auto; background-color:#fff; -moz-box-shadow:0 0 20px rgba(0, 0, 0, 1);}
+.sectiontwo {float:left; width:314px; height:300px; border-left:2px dotted #ff6600; text-align:center; background-color:#ffcc66; color:#006699; font-family:verdana; font-size:.9em;}
+.sectionthree {float:left; width:314px; height:300px; border-left:2px dotted #ff6600; text-align:center; background-color:#ffcc66; color:#006699; font-family:verdana; font-size:.9em;}
+.sectionfour {float:left; width:314px; height:300px; border-left:2px dotted #ff6600; border-right:2px dotted #ff6600; text-align:center; background-color:#ffcc66; color:#006699; font-family:verdana; font-size:.9em;}
+
+/**bottom navigation starts here**/
+.bottom {float:left; width: 100%; height:auto; overflow:hidden; margin:0; background-color:#ff6600;}
+.bottom p {float:left;width:100%; margin:auto; text-align:center; text-decoration:none; font-size:.75em; font-family:verdana;}
+
+.social {float:left; width:400px; height:60px; margin:auto; background:transparent;}
+.social li {float:left; width:50px; list-style-type:none; display:inline;}
+
+/**icon popup for social media links start
+.iconSlide {overflow:hidden; border: none; width:400px; height:50px; margin: auto; padding:0; border-bottom:2px solid #fff;}
+.iconSlide li {float:left; width:56px; height:30px; margin:0 15px; list-style-type:none;}
+.iconSlide li a {width:50px; height:50px; display:block; padding:0 3px;}
+.iconSlide li.blogger a {background:url(images/socialmedia/ra_blogger.png) no-repeat 3px 40px; width:50px; height:50px;}
+.iconSlide li.youtube a {background:url(images/socialmedia/ra_youtube.png) no-repeat 3px 40px; width:50px; height:50px}
+.iconSlide li.facebook a {background:url(images/socialmedia/ra_facebook.png) no-repeat 3px 40px; width:50px; height:50px;}
+.iconSlide li.twitter a {background:url(images/socialmedia/ra_twitter.png) no-repeat 3px 40px; width:50px; height:50px;}
+.iconSlide li.blogger a:hover, .iconSlide li.youtube a:hover, .iconSlide li.facebook a:hover, .iconSlide li.twitter a:hover {background-position:3px 0}
+/**icon popup for social media links end**/
+
+/*bottom navigation ends here*/
+
+body {background-color:#ccffff; width:100%; margin:auto;} 
+/* grey color code is #cbcbcb*/96724e
+
+h1 {float:left; color:#006699; margin:0 0 0 25px;}
+
+/**so far none of this old css is being used
+.secondaryImage {float:left; width:881px; height:250px;}
+.secondaryImage img {width:881px; height250px;}
+
+.leftNav {float:left; width:175px; height:100%;}
+.leftNav li {height:25px; margin:0; float:left; clear:none; list-style-type:none}
+.leftNav li:hover {list-style-type:none;}
+.leftNav li a {color:#000; text-decoration:none; width:175px; height:25px; padding:0;}
+.leftNav li a:hover {width:175px; height:25px; color:#fff; text-decoration:none; background-color:#848484;}
+
+.leftLogo {width:175px; background-color:#9c9b9b; text-align:center; border-right: 1px solid #fff;}
+.leftLogo li a {color:#fff;}
+.leftAbout {width:175px; background-color:#9c9b9b; text-align:center; border-right: 1px solid #fff}
+.leftAbout li a {color:#fff;}
+.leftEvents {width:175px; background-color:#9c9b9b; text-align:center; border-right: 1px solid #fff}
+.leftEvents {color:#fff;}
+.leftAthletes {width:175px; background-color:#9c9b9b; text-align:center; border-right: 1px solid #fff}
+.leftAthletes {color:#fff;}
+.leftSupport {width:175px; background-color:#9c9b9b; text-align:center; border-right: 1px solid #fff;}
+.leftSupport {color:#fff;}**/
+
+

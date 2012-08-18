@@ -1,0 +1,100 @@
+body {background:#396b0a url(images/gradient.gif) repeat-x;}
+* {padding:0px; margin:0px;}
+#mainCont {width:958px; height:1000px; background:url(images/mlc_back.jpg) no-repeat; margin:auto; font-family:Verdana, Arial, Helvetica, sans-serif;}
+#mainCont p {font-size:12px; line-height:14px; margin:0 0 10px 0;}
+
+#bodyCont {width:958px; position:relative; top:36px}
+#mainNav {width:305px; height:356px; background:url(images/menu.jpg) no-repeat; position:relative; float:left;}
+
+#contentCont, #centuryCont, #metricCont, #highlandsCont, #scenicCont, #orchardCont, #jackCont, #doubleCont {width:346px; position:relative; float:left;}
+#contentCont {background:url(images/date.jpg) no-repeat;}
+#centuryCont {background:url(images/century.jpg) no-repeat;}
+#doubleCont {background:url(images/double.jpg) no-repeat;}
+#metricCont {background:url(images/metric.jpg) no-repeat;}
+#highlandsCont {background:url(images/highlands.jpg) no-repeat;}
+#scenicCont {background:url(images/scenic.jpg) no-repeat; height:376px;}
+#orchardCont {background:url(images/orchard.jpg) no-repeat; height:354px;}
+#jackCont {background:url(images/jack.jpg) no-repeat;}
+.content  {margin:86px 18px 0 18px; color:#FFFFFF;}
+
+.content ul {font-size:11px; margin-bottom:10px;}
+.content ul li {list-style-type:none; margin:0 10px}
+
+#contentCont a, a:visited {color:#effcb0; font-weight:bold; text-decoration:none}
+#contentCont a:hover {color:#effcb0; font-weight:bold; border-bottom: 1px solid; text-decoration:none;}
+
+#rightCol {width:307px; height:356px; background:url(images/rightcol.jpg) no-repeat; position:relative; float:left;}
+#rideDetails {width:307px; height:356px; background:url(images/ride_details.jpg) no-repeat; position:relative; float:left;}
+#rightCol a, a:visited, #rideDetails a, a:visited {color:#495411; text-decoration:none; font-weight:bold;}
+#rightCol, #rideDetails a:hover {color:#effcb0; text-decoration:none;}
+.rightContent {margin:68px 37px 0 22px; color:#2a3207;}
+#rideDetails ul {list-style-type:none; font-size:12px; border-bottom: 1px solid #2a3207; margin-bottom:7px; padding-bottom:5px;}
+#rideDetails li {margin-bottom:3px;}
+#rideDetails a[href$='.pdf'] {padding: 5px 20px 5px 0;	background: transparent url(images/icon_pdf.gif) no-repeat center right;}
+#rideDetails span {font-size:10px; color:#990000; font-style:italic;}
+
+.flashPhoto {width:385px; height:285px; position:relative; left:541px;}
+
+#footer {width:958px; position:relative; display:block; float:left;}
+#footer a, a:visited {color:#effcb0; font-weight:bold; text-decoration:none}
+#footer a:hover {color:#effcb0; font-weight:bold; border-bottom: 1px solid; text-decoration:none;}
+#footer p {text-align:center; margin:0px; font-size:12px; color:#FFFFFF;}
+#footer div {width:600px; margin:auto}
+.copyright {font-size:9px; margin:0px; padding:0px;}
+
+hr {margin:auto; width:500px; margin-bottom:5px; margin-top:5px;}
+
+#sos span, #rtr span, #flywheel span, #eva span, #velocity span, #tai span {position:absolute; left:-3000px;}
+
+#sos a:hover {background: url(images/platinum.gif) 0 -100px no-repeat; border-bottom:none}
+#rtr a:hover {background: url(images/platinum.gif) -128px -100px no-repeat; border-bottom:none}
+#flywheel a:hover {background: url(images/platinum.gif) -228px -100px no-repeat; border-bottom:none}
+#eva a:hover {background: url(images/platinum.gif) -367px -100px no-repeat; border-bottom:none}
+#velocity a:hover {background: url(images/platinum.gif) -555px -100px no-repeat; border-bottom:none}
+#tai a:hover {background: url(images/platinum.gif) -722px -100px no-repeat; border-bottom:none}
+
+#footer img {border:none;}
+#footer div {text-align:center}
+#footer div a:hover {border:none;}
+
+/* Slideshow */
+.flashPhoto img {display:none;}
+.flashPhoto img.active {display:block;}
+
+/* SUPERBOX */
+/* Base Superbox Styles */
+#superbox-overlay{position:fixed;top:0;left:0;z-index:9998;width:100%;height:100%;}
+#superbox-wrapper{position:fixed;z-index:9999;top:0;left:0;display:table;width:100%;height:100%;}
+#superbox-container{position:relative;display:table-cell;width:100%;height:100%;margin:0;padding:130px 0 0 0 !important; /*vertical-align:middle;*/}
+#superbox{margin:0 auto;padding:0;}
+#superbox-container .loading{margin:0;text-align:center;}
+
+/* IE7 */
+*:first-child+html #superbox-container{position:absolute;top:100px;;left:0;display:block;height:auto;}
+*:first-child+html #superbox{position:relative;top:-50%;display:block;}
+/* IE6 - Thanks to Thickbox for IE expressions */
+* html #superbox-container{position:absolute;top:50%;left:0;display:block;height:auto;}
+* html #superbox{position:relative;top:-50%;display:block;}
+* html #superbox-overlay{position:absolute;height:expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight + 'px' : document.body.offsetHeight + 'px');}
+* html #superbox-wrapper{position:absolute;margin-top:expression(0 - parseInt(this.offsetHeight / 2) + (document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');}
+
+/* Default Theme */
+#superbox-overlay{background:url(images/overlay_back.gif) #000;}
+#superbox-container .loading{text-align:center;font-size:40px;color:#fff;}
+#superbox{background:transparent;outline:0;}
+#superbox-innerbox{
+	-moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+background:#fff;
+}
+#superbox.image{text-align:center;}
+#superbox-innerbox div {padding:10px}
+#superbox ul, #superbox h3, #superbox p {font-family:arial;}
+#superbox ul {margin:10px 20px;}
+#superbox li, #superbox p {list-style-type:none; font-size:13px;}
+
+#superbox .close,
+#superbox .nextprev{overflow:hidden;margin:0;padding:1px;}
+#superbox .close a:focus,
+#superbox .nextprev a:focus{outline:1px dotted;}
+

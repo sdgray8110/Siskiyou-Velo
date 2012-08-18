@@ -1,0 +1,1 @@
+<a href="http://pcta.org"><img src="images/adds/pcta_adds.jpg" border="none" alt="pacific crest trail"/></a>

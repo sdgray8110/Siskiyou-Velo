@@ -1,0 +1,1 @@
+<a href="featureditem.html" title="featured item"><img src="images/feature/featured_item.jpg" border="none" alt="featured item"></a>

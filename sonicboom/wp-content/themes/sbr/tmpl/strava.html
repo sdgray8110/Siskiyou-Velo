@@ -1,0 +1,25 @@
+<div id="strava" class="strava">
+    <header>
+        <h4>Strava</h4>
+        <h5>Sonic Boom Racing p/b Lucky Pie</h5>
+        <p class="subhead">Latest Rides</p>
+    </header>
+
+    <ul>
+    {{#rides}}
+        <li>
+            <a href="http://app.strava.com/athletes/{{athlete.id}}" class="thumb"><img src="{{athlete.avatar}}" alt="{{athlete.name}}" /></a>
+            <div class="rideData">
+                <p class="riderName">{{athlete.name}}</p>
+                <a href="http://www.strava.com/rides/{{id}}" class="rideName">{{name}}</a>
+                <ul class="data">
+                    <li>{{distance}}mi</li>
+                    <li>{{movingTime}}</li>
+                    <li>{{elevationGain}}ft</li>
+                </ul>
+                <p>{{startDate}}</p>
+            </div>
+        </li>
+    {{/rides}}
+    </ul>
+</div>

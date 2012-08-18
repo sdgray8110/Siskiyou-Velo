@@ -1,0 +1,36 @@
+#mainContent .leftContent {padding: 15px;}
+#mainContent .leftContent p.signature {margin:0;}
+.aboutImg {width:320px; padding: 10px; margin: 0 5px}
+
+fieldset {display:block;}
+.blockTextarea label, .blockTextarea textarea, .blockTextarea input {display:block;}
+.inlineBlockRadio {width:200px;}
+.inlineBlockRadio label, .inlineBlockRadio input {display:block; margin:0 0 3px;}
+.inlineBlockRadio input {float:left; clear:left; width:15px; margin-top:3px}
+.inlineBlockRadio label {float:right; clear:right; width:175px;}
+
+fieldset {display:block;}
+.blockTextarea label, .blockTextarea textarea, .blockTextarea input {display:block;}
+.inlineBlockRadio {width:200px;}
+.inlineBlockRadio label, .inlineBlockRadio input {display:block; margin:0 0 3px;}
+.inlineBlockRadio input {float:left; clear:left; width:15px; margin-top:3px}
+.inlineBlockRadio label {float:right; clear:right; width:175px;}
+
+#Volunteer fieldset, #contact fieldset {margin:5px 0 15px 0; overflow:hidden;}
+#Volunteer h5, #contact h5 {font-family:georgia; font-weight:300; font-size:16px; color:#3C3C30}
+.inlineBlockRadio label, .blockTextarea label, .multiInlineRadio label {font-family:arial; font-size:13px; font-weight:700; color:#3C3C30}
+.inlineBlockRadio label {margin:3px}
+.blockTextarea label {width:150px; display:block; float:left; clear:both; }
+.blockTextarea input, .blockTextarea select {font-size:12px; margin:0 0 5px; width:200px; padding:4px; border:1px solid #aaa;}
+label[for="comments"] {width:250px; display:block; float:none;}
+#Volunteer textarea, #contact textarea {float:left; clear:both; margin:3px 0 0; display:block; width:400px; height:150px; padding:4px; border:1px solid #aaa; font-family:arial; font-size:12px;}
+
+/* Photos Page */
+.leftContent.photos li {width:153px; float:left; height: 175px;}
+.leftContent.photos .middle {margin: 0 65px;}
+.leftContent.photos .thumb {display:block;width:145px; height:115px; -moz-box-shadow: 0 0 4px rgba(0,0,0,0.5); -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.5); text-align: center; position:relative; z-index:1; margin-bottom: 3px;}
+.leftContent.photos .thumbText {font-family: arial, helvetica, sans-serif; font-size: 14px; font-weight: 300 !important; text-align: center; width:145px;}
+.leftContent.photos li > span {font-size: 11px;}
+.leftContent.photos span {z-index: 2; position:absolute; display: block;}
+.leftContent.photos .rogue {background:url('../img/background/rogueStudiosImageOverlay.png'); width:140px; height:42px; top:68px; left:4px;}
+.leftContent.photos .picasa {background:url('../img/background/picasaImageOverlay.png'); width:46px; height:42px; top:68px; left:4px;}

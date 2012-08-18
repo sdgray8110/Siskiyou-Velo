@@ -1,0 +1,11 @@
+<ul class="faux-select {{className}}" id="{{name}}_select">
+    <li><a tabindex="1" class="value">{{title}}</a></li>
+    <li class="dropdown">
+        <ul>
+            {{#options}}
+            <li><a rel="{{name}}" class="option">{{title}}</a></li>
+            {{/options}}
+        </ul>
+    </li>
+</ul>
+<input id="{{name}}" name="{{name}}" value="" type="hidden" />

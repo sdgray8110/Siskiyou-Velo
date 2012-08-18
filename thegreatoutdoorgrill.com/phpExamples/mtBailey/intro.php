@@ -1,0 +1,2 @@
+<h1>Mount Bailey</h1>
+<p>Mount Bailey offers tons of turns! This unique mountain has a very open southeast face, with tons of vertical drop. Mount Bailey Snowcats offers guided trips on the mountain for those looking for a unique vacation or some extra support. Plan for a two-day approach if you're going up during the winter. Hiking is best in late spring and early summer, as you can drive directly to the trailhead. There will still be plenty of snow higher up on the mountain, however. The climb can be done in one day during summer</p>

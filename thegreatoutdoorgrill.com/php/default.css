@@ -1,0 +1,276 @@
+h5, h6			{color: #663300;}
+h1				{color: #ffffff;}
+h2	 			{color: #663300; margin: 5px auto;}
+h3				{float:left; color: #663300; margin: 10px auto auto auto; }
+h4				{color: #663300;}
+
+/**will need to create a #header for each activity and the more.html pages**/
+/**activity headers start**/
+#header {float: left; width: 550px; height: 150px; border:none; background:url(images/header.jpg) no-repeat; border: 2px solid #663300; margin: 4px 100px 50px;} /**/
+#backcountryheader {float: left; width: 850px; height: 250px; border:none; background:url(images/headers/backcountry_header.jpg) no-repeat; margin: auto;}
+#backpackingheader {float: left; width: 850px; height: 250px; border:none; background:url(images/headers/backpacking_header.jpg) no-repeat; margin: auto;}
+#hikingheader {float: left; width: 850px; height: 250px; border:none; background:url(images/headers/hiking_header.jpg) no-repeat; margin: auto;}
+#climbingheader {float: left; width: 850px; height: 250px; border:none; background:url(images/headers/climbing_header.jpg) no-repeat;  margin: auto;}
+#mountaineeringheader {float: left; width: 850px; height: 250px; border:none; background:url(images/headers/mountaineering_header.jpg) no-repeat;  margin: auto;}
+#snowshoeingheader {float: left; width: 850px; height: 250px; border:none; background:url(images/headers/snowshoeing_header.jpg) no-repeat;  margin: auto;}
+#crosscountryheader {float: left; width: 850px; height: 250px; border:none; background:url(images/headers/crosscountry_header.jpg) no-repeat;  margin: auto;}
+#whitewaterheader {float: left; width: 850px; height: 250px; border:none; background:url(images/headers/whitewater_header.jpg) no-repeat; margin: auto;}
+#mtbheader {float: left; width: 850px; height: 250px; border:none; background:url(images/headers/mtb_header.jpg) no-repeat; margin: auto;}
+/**activity headers end**/
+
+
+/**more headers start**/
+#moreheader {float: left; width: 850px; height: 250px; border:none; background:url(images/headers/more_header.jpg) no-repeat; margin: auto;}
+#hoursheader {float: left; width: 850px; height: 250px; border:none; background:url(images/headers/hours_header.jpg) no-repeat; margin: auto;}
+#contactheader {float: left; width: 850px; height: 250px; border:none; background:url(images/headers/contact_header.jpg) no-repeat; margin: auto;}
+#directionsheader {float: left; width: 850px; height: 250px; border:none; background:url(images/headers/directions_header.jpg) no-repeat; margin: auto;}
+#aboutaosheader {float: left; width: 850px; height: 250px; border:none; background:url(images/headers/about_header.jpg) no-repeat; margin: auto;}
+#staffheader {float: left; width: 850px; height: 250px; border:none; background:url(images/headers/staff_header.jpg) no-repeat; margin:auto;}
+#careersheader {float: left; width: 850px; height: 250px; border:none; background:url(images/headers/career_header.jpg) no-repeat; margin: auto;}
+#eventsheader {float: left; width: 850px; height: 250px; border:none; background:url(images/headers/events_header.jpg) no-repeat; margin: auto;}
+#athletesheader {float: left; width: 850px; height: 250px; border:none; background:url(images/headers/athletes_header.jpg) no-repeat; margin: auto;}
+#videoheader {float: left; width: 850px; height: 250px; border:none; background:url(images/headers/video_header.jpg) no-repeat; margin: auto;}
+#linksheader {float: left; width: 850px; height: 250px; border:none; background:url(images/headers/links_header.jpg) no-repeat; margin: auto;}
+#weatherheader {float: left; width: 850px; height: 250px; border:none; background:url(images/headers/weather_header.jpg) no-repeat; margin: auto;}
+#brandsheader {float: left; width: 850px; height: 250px; border:none; background:url(images/headers/brands_header.jpg) no-repeat; margin: auto;}
+#disclaimerheader {float: left; width: 850px; height: 250px; border:none; background:url(images/headers/disclaimer_header.jpg) no-repeat; margin: auto;}
+/**more headers end**/
+
+
+/**the div that might contain the bulk of information on activities pages; might not use**/
+#main		{float: left; width:700px; height:auto; margin: 0;}
+
+/**div container for entire page**/
+#page {width:850px; height:auto; margin: auto; background-color:#fff; -moz-box-shadow:0 0 20px rgba(0, 0, 0, 1);}
+
+
+/**footer for additional information; might not use**/
+#footer		{float: left; width: 100%; height: 200px; margin: 50px 0 0; border-top: 1px dotted #ffffff; background-color: #653504;}
+
+/**main image on homepage**/
+#homepage	{float: left; width: 850px; height: 450px; border: none; background:url(images/homepage/homepage.jpg) no-repeat; margin: 0;}/**/
+
+/*borders*/
+div.sectionPage {width:850px; overflow:hidden; margin:5px 0 0 0; border: 1px solid #663300; background-color:#fff;}
+
+div.sectionStaff {width:850px; overflow:hidden; margin:5px 0 0 0; border: 1px solid #663300; background-color:#fff;}
+
+div.sectionLocation {width:850px; overflow:hidden; margin:5px 0 0 0; border: 1px solid #663300; background-color:#fff;}
+
+div.sectionFeature {width:850px; overflow:hidden; margin:5px 0 0 0; border:1px solid #663300; background-color:#fff;}
+
+div.sectionOne {width:850px; height:100px; border-bottom: 1px solid #663300; background-image:url('images/sections/sectionOne.jpg');}
+div.sectionOne a {width:100%; height:100%;}
+
+div.sectionTwo {width:850px; height:450px; border-top:1px solid #663300; margin:0; padding:0;}
+
+div.sectionThree {width:850px; height:250px; border-top:1px solid #663300; border-bottom:1px solid #663300; margin:0;}
+
+div.sectionFour {float:left; width: 248px; height:319px; border-right:1px solid #663300; border-top:1px solid #663300; color:#663300; font-style:italic; text-align:center; background-image:url("images/feature/featured_item.jpg"); background-image:no-repeat;}
+div.sectionFour li {float:left; width:248px; list-style-type:none;}
+div.sectionFour li a {color:#663300; text-decoration:none;}
+div.sectionFour li a:hover {text-decoration:underline;}
+div.sectionFour a {width:248px; height:319px; color:#663300; text-decoration:none;}
+div.sectionFour a:hover {text-decoration:underline;}
+
+div.sectionFive {float:left; width:400px; height:319px; border-top:1px solid #663300; border-right:1px solid #663300;}
+
+div.sectionSix {float:left; width:850px; height:175px; border-top: 1px solid #663300; padding:25px 0 0 0; margin:auto; background-color:#fff;}
+div.sectionSix img.numone {width:200px; margin:0 0 0 20px;}
+div.sectionSix img.numtwo {width:200px; margin:0;}
+div.sectionSix img.numthree {width:200px; margin:0;}
+div.sectionSix img.numfour {width:200px; margin:0 5px 0 0;}
+
+div.sectionSeven {float:left; width:200px; height:100px; border-top:1px solid #663300; border-bottom:1px solid #663300;}
+
+div.sectionEight {float:left; width:200px; height:100px; border-bottom:1px solid #663300;}
+
+div.sectionNine {float:left; width:200px; height:100px; border:none;}
+
+div.sectionTen {float:left; width:700px; height:auto; border:none;}
+
+div.sectionElleven {float:left; width:auto; overflow:hidden; border-left:1px solid #663300;}
+
+div.sectionTwelve {float:left; width:700px; overflow:hidden; border:none;}
+
+div.sectionThirteen {float:left; width:100%; height:25px; border-top:none; background-color:transparent; color:#00529c; font-size:0.9em; text-align:center; padding:10px 0 0 0;}
+
+/**icon popup for social media links start**/
+.iconSlide {overflow:hidden; border: none; width:344px; height:50px; margin: 400px 50px; padding:0;}
+.iconSlide li {float:left; width:56px; height:30px; margin:0 15px; list-style-type:none;}
+.iconSlide li a {width:50px; height:50px; display:block; padding:0 3px;}
+.iconSlide li.vimeo a {background:url(images/socialmedia/aosvimeo.png) no-repeat 3px 40px; width:50px; height:50px;}
+.iconSlide li.youtube a {background:url(images/socialmedia/aosyoutube.png) no-repeat 3px 40px; width:50px; height:50px}
+.iconSlide li.facebook a {background:url(images/socialmedia/aosfacebook.png) no-repeat 3px 40px; width:50px; height:50px;}
+.iconSlide li.twitter a {background:url(images/socialmedia/aostwitter.png) no-repeat 3px 40px; width:50px; height:50px;}
+.iconSlide li.vimeo a:hover, .iconSlide li.youtube a:hover, .iconSlide li.facebook a:hover, .iconSlide li.twitter a:hover {background-position:3px 0}
+/**icon popup for social media links end**/
+
+/**icon popup for social media links within activity pages start**/
+.activityiconSlide {overflow:hidden; border: none; width:344px; height:50px; margin: 200px 50px; padding:0;}
+.activityiconSlide li {float:left; width:56px; height:30px; margin:0 15px; list-style-type:none;}
+.activityiconSlide li a {width:50px; height:50px; display:block; padding:0 3px;}
+.activityiconSlide li.vimeo a {background:url(images/socialmedia/aosvimeo.png) no-repeat 3px 40px; width:50px; height:50px;}
+.activityiconSlide li.youtube a {background:url(images/socialmedia/aosyoutube.png) no-repeat 3px 40px; width:50px; height:50px}
+.activityiconSlide li.facebook a {background:url(images/socialmedia/aosfacebook.png) no-repeat 3px 40px; width:50px; height:50px;}
+.activityiconSlide li.twitter a {background:url(images/socialmedia/aostwitter.png) no-repeat 3px 40px; width:50px; height:50px;}
+.activityiconSlide li.vimeo a:hover, .activityiconSlide li.youtube a:hover, .activityiconSlide li.facebook a:hover, .activityiconSlide li.twitter a:hover {background-position:3px 0}
+/**icon popup for social media within activity pages links end**/
+
+/**top navigation and drop downmenu for activities start**/
+.topnav {position:relative; width: 850px; border:none; margin:0; padding:2px 0 0 0; height:25px; background-color:#00529c;}
+.topnav li {display: block; height:25px; margin:0; float:left; clear:none;}
+.topnav li:hover {list-style-type:none; background:transparent;}
+.topnav li a {color:#fff; text-decoration:none; display:block !important; width:100%; height:25px; padding:0 3px;}
+
+.activities {width: 125px;}
+.activities li a {color:#fff;}
+.blogs {width: 125px;}
+.blogs li a {color:#fff;}
+.home {width: 125px;}
+.home li a {color:#fff;}
+.contact {width: 125px;}
+.contact li a {color:#fff;}
+.store {width:125px;}
+.store li a {color:#fff;}
+.access {width:225px; color:#fff; font-style:italic; text-align:right;}
+
+/*This is the key stuff - showing and hiding the nested UL when hovering the parent li*/
+.topnav li ul {display:none; float:left; clear:both; padding:4px; width:140px; margin:0; border:0px solid; border-top:none;}
+.topnav li:hover ul {display:block; background-image:url("images/dropdown.png");}
+.topnav li ul li {width:134px; clear: both;}
+.topnav li ul li a:hover {color:#fff; background:transparent; text-decoration:underline;}
+/**top navigation and drop downmenu for activities end**/
+
+/** bottom nagivagation starts here**/
+.bottomNav {float: left; width: 620px; border-top: none; margin:0 140px 0; padding: 1px 0px 0px; height:20px;}
+.bottomNav li {display: block; height:25px; margin:0; float:left; clear:none;}
+.bottomNav li:hover {list-style-type:none; background:transparent; text-decoration:underline;}
+.bottomNav li a {color:#663300; text-decoration:none; display:block !important; width:100%; height:25px; padding:0 3px;}
+
+.contact {width: 150px;}
+.about {width: 150px;}
+.disclaimer {width: 150px;}
+.more {width: 150px;}
+
+/** bottom nagivagation ends here**/
+
+/**share (addthis) content alignment starts here**/
+.share {float:left; width:850px; height:auto; margin:auto;}
+/**share (addthis) content alignment starts here**/
+
+/**activity description for each activity starts here**/
+.description {float:left; width:690px; overflow:hidden; margin:0; padding:5px; color:#663300; text-align:justify;}
+.description a {text-decoration:none; color:#663300;}
+.description a:hover {text-decoration:underline;}
+.description img.trailhead {float:left; width:600px; margin:0 0 0 65px;}
+.description iframe {float:right; margin:5px;}
+.description ul {float:left; width:690px;}
+.description p {float:left; width:690px; margin:5px auto 25px;}
+/**activity description for each activity ends here**/
+
+/*featured item description starts here*/
+.feature {float:left; width:690px; overflow:hidden; margin:0; padding:5px; color:#663300; text-align:justify;}
+.feature a {text-decoration:none; color:#663300;}
+.feature a:hover {text-decoration:underline;}
+.feature img {float:left; width:250px; margin: 15px 0 15px 220px; border:1px solid #663300; -moz-box-shadow:0 0 20px rgba(0, 0, 0, 1);}
+.feature p {float:left; width:685px; margin:0; padding:5px;}
+.feature p.comment {font:italic; size:.75em;}
+.feature iframe {float:left; width:450px; margin:15px 0 15px 120px;}
+.feature ul {list-style-type:none; width: 685px; margin:0; padding:5px;}
+
+/**staff bio and image list starts here**/
+ul.staff {width:700px;}
+ul.staff li {width:700px; margin:0 0 5px -40px; list-style-type:none; display:block;}
+ul.staff li img {width:200px; margin:auto; float:left; border: 1px solid #663300;}
+ul.staff li div {float:left; clear:none; width:450px; margin:0 0 0 5px;}
+
+.travis {float:left; width:500px; margin:0; list-style-type:none; display:block;}
+.frank {float:left; width:500px; margin:0; list-style-type:none; display:block;}
+.bryant {float:left; width:500px; margin:0; list-style-type:none; display:block;}
+.sarah {float:left; width:500px; margin:0; list-style-type:none; display:block;}
+.davi {float:left; width:500px; margin:0; list-style-type:none; display:block;}
+.david {float:left; width:500px; margin:0; list-style-type:none; display:block;}
+.mike {float:left; width:500px; margin:0; list-style-type:none; display:block;}
+.steve {float:left; width:500px; margin:0; list-style-type:none; display:block;}
+.nanook {float:left; width:500px; margin:0; list-style-type:none; display:block;}
+.winslow {float:left; width:500px; margin:0; list-style-type:none; display:block;}
+.aussie {float:left; width:500px; margin:0; list-style-type:none; display:block;}
+
+.staffBio {float:left; width:500px; height:auto; margin:0; padding:1px;}
+/**staff bio and image list ends here**/
+
+/**location list for each activity starts here**/
+.location {float:left; width:115px; height:auto; margin:0; padding:0 0 0 5px; color:#663300;}
+.location li {float:left; display:block; list-style-type:none; margin:0 10px 0 0; padding: 5px 0; color:#663300;}
+.location li a {color:#663300; text-decoration:none; font-size:.9em;}
+.location li a:hover {color:#663300; text-decoration:underline;}
+
+/**link list starts here**/
+.links {float:left; width:300px; overflow:hidden;}
+.links li {list-style-type:none; margin:0 0 0 -40px;}
+.links li a {color:#663300; text-decoration:none;}
+.links li a:hover {color:#663300; text-decoration:underline;}
+
+/**brands list starts here**/
+.brands {float:left; width:300px; height:400px;}
+.brands li {list-style-type:none;  display:block;}
+.brands li a {color:#663300; text-decoration:none;}
+.brands li a:hover {color:#663300; text-decoration:underline;}
+
+/**disclaimer paragraph starts here**/
+.copywrite p {float:left; color:#663300; text-align:justify;}
+
+/*weather html container starts here*/
+.weather {float:left; width:300px; height:auto;}
+
+/*video container and ul start here*/
+.video {float:left; width:450px; height: auto; list-style-type:none; display:block; margin: 5px 0 0 -40px;}
+.video a {text-decoration:none; color:#663300;}
+.video a:hover {text-decoration:underline;}
+
+div.vidbio {float:left; width:200px; overflow:hidden; text-align:justify; margin:5px 15px 0 5px;}
+div.vidbio p {float:left; width:200px;}
+div.vidbio img {float:left; margin:-5px 5px 0 0;}
+
+.title {float:left; width:250px; list-style-type:none; margin:5px 0 0 0px;}
+.type {float:left; width:100px; list-style-type:none; margin:5px 0 0 0px;}
+.date {float:left; width:100px; list-style-type:none; margin:5px 0 0 0px;}
+
+ul.content {list-style-type:none; margin: 5px 0 0 -40px;}
+ul.content a {text-decoration:none; color:#663300;}
+ul.content a:hover {text-decoration:underline;}
+
+/*ahtlete container ul's and li's start here*/
+.athletes {float:left; width:450px; height:auto; list-style-type:none; display:block; margin: 5px 0 0 -40px;}
+.athletes a {text-decoration:none; color:#663300;}
+.athletes a:hover {text-decoration:underline;}
+
+.name {float:left; width:200px; height:auto; list-style-type:none; margin:5px 0 0 0;}
+.name img {width:200px; margin:0 5px 0 0px; float:left; border: 1px solid #663300;}
+
+.athInfo {float:left; width:200px; height:auto; list-style-type:none; margin:5px 0 0 5px;}
+
+.sport {float:left; width:250px; height:auto; list-style-type:none; margin:5px 0 0 0;}
+
+ul.bios {list-style-type:none; margin: 5px 0 0 -40px;}
+ul.bios a {text-decoration:none; color:#663300;}
+ul.bios a:hover {text-decoration:underline;}
+
+div.twitter {width:700px; margin:0px 0px 0px 0px; background-color: #fff;}
+div.twitter ul {overflow:hidden; height:358px; margin:5px; padding:0; list-style-type:none;}
+div.twitter li {font-size:.75em;}
+div.twitter ul div {float:left; width:700px; height:auto; clear:none; margin:0 0 5px;}
+div.twitter .thumb {display:none;}
+div.twitter p {margin:0 0 5px 0; color:#663300;}
+div.twitter a:link {color:#663300;}
+div.twitter a:visited{color:#663300;}
+div.twitter a:hover{color:#663300; text-decoration:underline;}
+div.twitter a:active{color:#663300;}
+
+
+
+
+.paragraph 	{font-family: "times new roman", Arial; font-size: 1.2em; color: #663300;}
+body		{background-image:url('images/background.png'); width:100%; margin:0; padding:0;}/*{background:url(images/background.jpg) no-repeat;}*/
+

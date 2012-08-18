@@ -1,0 +1,1 @@
+<a href="http://fmsac.org/"><img src="images/adds/fmsac_adds.jpg" border="none" alt="Friends of the Mount Shasta Avalanche Center"/></a>

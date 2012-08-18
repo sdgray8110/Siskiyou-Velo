@@ -1,0 +1,18 @@
+body 			{background:url("images/greatoutdoorgrill.jpg") no-repeat scroll center 15px transparent;}
+h1, h2, h3		{color: black;}
+a, img 			{border:none;}
+#main 			{margin:600px 0 0}
+#footer 		{margin:auto; width:800px;}
+
+div.twitter 	{width:250px; margin:0px 0px 0px 0px; background-color: #255aed;}
+div.twitter ul 	{overflow-y:scroll; height:275px; margin:8px; padding:0; list-style-type:none; width:auto;}
+div.twitter li 	{}
+div.twitter ul div {float:left; width:150px; clear:none; margin:0 0 10px}
+div.twitter .thumb {width:48px; clear:both; margin: 0 10px 0 0}
+div.twitter p {margin:0 0 10px;}
+
+.iframe			{position: absolute; right: 350px; width: 45%; bottom: 100px; height: 70%;}
+.paragraph		{font-family: "times new roman", Arial; font-size: 1em;}
+
+div.disc		{width:250px; margin:0px 0px 0px 0px; background-color: #255aed;}
+div.disc 		{overflow-y:scroll; height:342px; margin: 0px; padding:0;}

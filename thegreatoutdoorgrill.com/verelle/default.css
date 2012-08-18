@@ -1,0 +1,66 @@
+h2 {color:red;}
+h3 {color:green;}
+h4 {color:green;}
+
+#verelle	{float:left; width:650px; height:auto; margin: 0 0 0 50px; padding: 25px 10px 0; font-size:72px; font-family: "tertre", times, serif;}
+
+
+.home {float:left; width:1000px; height:auto; margin: 0 0 0 50px;}
+
+
+/*navigation*/
+.loves {width:1000px; height:120px; margin:0 0 0 25px;}
+.loves li {width:200px; height:120px; float:left; list-style-type:none; display:block; margin:1px; padding: 0; border:none;}
+
+.arrows {float:right; width:75px; height:200px; background:transparent; margin:5px; padding:0;}
+.arrows li {list-style-type:none; display:block;}
+/*navigation*/
+
+
+
+/**homepage**/
+#indexpage {width:1000px; height:800px; background-image:url("images/background_index.jpg"); background-repeat:none; margin: 25px auto;}
+
+.isA {float:left; width:1000px; height:800px; margin:auto;}
+.isA li {float:left; list-style-type:none; width:910px; margin:10px 0; padding:0;}
+.isA li a {width: 910px; height:120px; border:none; text-decoration:none;}
+/**homepage**/
+
+
+
+/*pen pal*/
+#penpalpage {width:1000px; height:800px; background-image:url("images/background_penpal.gif"); background-repeat:none; margin:25px auto;}
+
+.about {float:left; width:1000px; height:500px; margin: 0 0 0 50px;}
+/*pen pal*/
+
+
+
+/*graphic designer*/
+#designpage {width:1000px; height:800px; overflow:hidden; background-image:url("images/background_design.gif");background-repeat:none; margin: 25px auto;}
+
+.designer {float:left; width:700px; height:600px; margin: 0; padding:0;}
+.designer iframe {float:left; width:700px; height:600px; margin:auto; border:none; overflow:hidden;}
+
+
+.pieces {float: left; width:100px; height:500px; background:transparent; margin:20px 25px 0 25px;}
+.pieces li {list-style-type:none;}
+.pieces a {color:#fff;text-decoration:none;}
+/*graphic designer*/
+
+
+
+/*gastronomist*/
+#gastronomistpage {width:1000px; height:800px; background-image:url("images/background_gastronomist.gif");background-repeat:none; margin: 25px auto;}
+
+.food {float:left; width:700px; height:500px; margin: 0; padding:0;}
+
+.recipes {float: left; width:50; height:500px; background:transparent; margin:20px 25px 0 25px;}
+.recipes li {list-style-type:none;}
+.recipes a {color:#fff; text-decoration:none;}
+/*gastronomist*/
+
+.paragraph		{font-family: "tertre", Arial; font-size: 1.2em;}
+
+body {width:100%; margin:auto;}
+

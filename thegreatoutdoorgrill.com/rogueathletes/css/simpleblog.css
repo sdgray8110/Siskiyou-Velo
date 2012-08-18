@@ -1,0 +1,11 @@
+div.simplepiebody {font:12px/1em Verdana, sans-serif;color:#333;background-color:transparent;width:auto;margin:auto;padding:0;}
+
+a {color:#ff6600; text-decoration:none; padding:0 1px;}
+
+a:hover {background-color:transparent;color:#fff;text-decoration:underline;}
+
+div.simplepieheader {border-bottom:2px dotted #ff6600; color:#006699;}
+
+div.item {padding:5px 5px; border-bottom:2px dotted #ff6600; text-align:left; color:#006699;}
+div.item a {color:#ff6600;text-decoration:none;}
+div.item a:hover {color:#ff6600;text-decoration:underline;}

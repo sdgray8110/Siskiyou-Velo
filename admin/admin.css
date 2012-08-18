@@ -1,0 +1,107 @@
+/* Globals */
+body, * {margin:0; padding:0;}
+div.clear {clear:both; height:26px; margin:0;}
+
+/* Main Nav */
+ul.mainNav {width:100%; margin:0; padding:0; height:28px; background:url(images/main_nav.png) repeat-x; font-family:verdana, sans-serif; color:#000; list-style-type:none; clear:both;}
+ul.mainNav li {padding:5px 10px; height:14px; float:left; font-size:11px; cursor:pointer;}
+ul.mainNav li:hover, ul.mainNav span:hover {background:url(images/main_nav_hover.png) repeat-x;}
+ul.mainNav li.active {font-weight:700;}
+ul.mainNav span {float:right; font-size:11px; color:#666; padding:5px 15px; margin:0 10px; background:url(images/menu_icon.gif) no-repeat right; cursor:pointer;}
+ul.mainNav span strong {font-weight:700; color:#427ab7; padding:0 0 0 5px;}
+
+/* Nav Login & Email Confirmation */
+.signinForm, .emailSent, .memberDialog {width:220px; background:url(images/login_back.png) repeat-x #4671a3; color:#fff; font-family:arial; padding:7px 0; margin:0 5px; -moz-border-radius:0 0 5px 5px;}
+.signinForm {float:right;}
+.emailSent {margin:auto;}
+.memberDialog {position:absolute; right:0; display:none;}
+.signinForm h5, .emailSent h5, .memberDialog h5 {margin:0 7px; border-bottom:1px dotted #ddeef6; padding:0 0 2px 0;}
+.signinForm label {font-size:11px; margin:7px 7px 0 7px;}
+.signinForm p, .memberDialog p, .emailSent p {font-size:11px; margin:0 7px;}
+.signinForm a, .memberDialog a {font-weight:700; color:#ddeef6;}
+.signinForm a:hover, .memberDialog a:hover {text-decoration:none;}
+.signinForm input {font-size:13px; padding:3px; width:200px; margin:0px 7px 7px 7px; clear:both;}
+.signinForm input.submit {font-size:11px; width:auto; background:#ddeef6; font-weight:700; border:1px solid #fff; font-family:verdana; cursor:pointer;}
+.signinForm input.submit:hover {color:#4671a3;}
+
+/* subNav */
+ul.subNav {display:none; background:url(images/tab_back.png) repeat-x; margin:0; padding:0; list-style-type:none; height:24px; font-family:verdana, sans-serif; color:#fff; border-top:1px solid #000; border-bottom:1px solid #000;}
+ul.subNav h2 {float:left; font-size:12px; padding:4px 10px; height:16px; background:url(images/tab_back.png) repeat-x 0 -24px; border-right:3px double #fff;}
+ul.subNav li {border-right:1px solid #fff; padding:5px 10px; height:14px; float:left; font-size:11px; cursor:pointer;}
+ul.subNav li:hover {background:#7ca3d0; background-image:none;}
+ul.subNav li.active {background:url(images/tab_back.png) repeat-x 0 -24px; font-weight:700;}
+ul.subNav li.active:hover {background:#222; background-image:none;}
+
+/* Header */
+.adminHeader {width:100%;}
+.adminHeader h1 {font-family:arial; color:#427ab7; margin:65px 10px 0 10px; font-size:22px; float:right;}
+.adminHeader img {margin:10px 5px; float:left;}
+
+/* Body */
+.mainContent {width:100%; height:100%;}
+.clear {clear:both;}
+
+/* Email */
+.recipients {float:left; width:250px; margin-top:77px; font-family:arial;}
+.recipients h3 {margin: 10px 0;}
+
+.recipients label {float:left; width:80px; font-size:12px; line-height:12px; height:16px; margin:5px 10px 5px 15px; clear:both; font-weight:bold; color:#666; text-align:right;}
+.recipients div.check {float:left; height:16px; width:100px; border:none; margin:5px 10px 5px 0px; text-align:left;}
+.check input {width:15px; height:15px; border:none;}
+#filterButton:hover {color:#fff; background:#000}
+
+.recipients input.button {width:100%; cursor:pointer;}
+.recipients input.emailSearch {float:left; width:120px; margin:2px 0 10px 3px; border:1px solid #ccc;}
+p.control {font-family:verdana; font-size:11px; font-weight:700; color:#eee; background:#333; width:228px; padding:2px 11px; margin:0; text-align:center; -moz-border-radius:5px 5px 0 0;}
+p.submit {font-family:verdana; font-size:12px; line-height:13px; width:228px; padding:2px 10px; border:1px solid #000; border-top:0; margin:0; text-align:center; cursor:pointer; background:url(images/select.png); clear:both;  -moz-border-radius:0 0 5px 5px ;}
+p.submit:hover {background:#000; color:#fff;}
+#emailForm select {width:250px; font-size:11px; background:url(images/select_back.png) repeat-x top; border:1px solid ; color:#000; font-family:arial; font-size:10px; height:407px; margin:0; padding:0; float:left;}
+select#acctType {padding:0; background-image:none; width:145px; height:20px; margin:0; border:1px solid #666; margin:-3px 0 0 0}
+
+div.ckEditorForm {display:none; float:left; width:700px; margin:0 15px 0 10px; font-family:arial; font-size:12px; font-weight:bold; color:#444}
+div.ckEditorForm .submit {margin:10px 0; font-size:14px; line-height:14px; border:1px solid#555; cursor:pointer;}
+div.ckEditorForm .submit:hover {background:#000; color:#fff}
+
+label {display:block; margin:10px 0 3px 0;}
+input {width:400px; font-size:14px; font-weight:700; padding:2px; color:#666; font-family:arial; border:1px solid #666; -moz-border-radius:5px;}
+
+/** Membership **/
+div.memberTables {margin:5px; font-family:arial;}
+td a {color:navy; font-weight:700;}
+table {font-size:12px; border-top:1px solid #ccc; border-right:1px solid #ccc;}
+thead th {background:#333; color:#eee;}
+
+th, td {border-left:1px solid #ccc; border-bottom:1px solid #ccc;; padding:1px 3px;}
+tr.odd {background:#eee;}
+td.num {text-align:center; background:#333; color:#eee;}
+
+.memberEdit {width:160px; margin:5px 10px 14px 10px; float:left;}
+.memberEdit h5, div.advSearch h5 {font-size:14px; padding:0 0 3px 0; border-bottom:1px dotted #ccc; color:#427ab7;}
+.memberEdit label {font-size:11px; margin:5px 0 0 0; font-weight:700; color:#555}
+.memberEdit input, .memberEdit textarea {width:150px; font-size:11px; font-weight:normal; color:#000; margin:0; padding:3px; border:1px solid #888; -moz-border-radius:5px}
+.memberEdit input:focus, .memberEdit textarea:focus {background:#dceefc; border:2px solid #ccc; padding:2px; font-weight:bold;}
+.memberEdit textarea {height:54px; font-family:arial;}
+.memberEdit select {background:#fff; background-image:none; padding:0; width:100%; height:22px; border:1px solid #aaa; margin:0; font-size:11px;}
+div.submit {float:left; width:705px; clear:both; margin:0 7px; border-top:1px dashed #427ab7}
+div.submit h3 {color:#427ab7; margin-top:30px; padding:0; text-align:center; font-size:18px}
+div.submit h4 {color:#000; margin:0; text-align:center;}
+div.submit p {width:330px; background:#427ab7; border:2px solid #ccc; color:#fff;  float:left; text-align:center; margin:13px 8px; font-size:14px; font-weight:700; -moz-border-radius:5px; cursor:pointer;}
+div.submit p:hover {background:#000; color:#fff; border:2px solid #ccc;}
+
+div.advSearch {width:90%; margin:7px auto; font-family:arial}
+div.advSearch h5 {margin:10px 0 5px 0}
+div.advSearch label {width:100px; display:inline; font-size:11px; color:#555; font-weight:700;}
+div.advSearch select {background:none; width:120px; height:22px; display:inline;}
+
+div.advSearch table, div.advSearch td {border:none;}
+div.advSearch table {width:100%;}
+div.advSearch td {text-align:center;}
+div.advSearch table.advSearch {width:610px; margin-bottom:10px;}
+div.advSearch select {width:100%}
+div.advSearch input {width:auto; margin:0 5px;}
+div.advSearch input.search {width:200px;}
+div.advSearch p {background:#427ab7; border:2px solid #ccc; color:#fff;  float:left; text-align:center; margin:0px 8px; font-size:14px; font-weight:700; -moz-border-radius:5px; cursor:pointer; padding:3px 10px;}
+div.advSearch p:hover {background:#000; color:#fff; border:2px solid #ccc;}
+
+/* Events Overlay */
+#editEventForm textarea {width:400px; height:150px;}

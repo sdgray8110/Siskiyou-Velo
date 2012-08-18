@@ -1,0 +1,28 @@
+{
+    "items" : [
+        {
+            "month" : "January",
+            "year" : "2011",
+            "duration" : "31",
+            "starts" : "5",
+            "events": [
+                {
+                    "date" : "3",
+                    "name" : "Spin Class",
+                    "time" : "5:45-6:30pm",
+                    "location" : "JCC Dallas",
+                    "type" : "spin",
+                    "link" : "http://www.siskiyouvelo.org"
+                },
+                {
+                    "date" : "10",
+                    "name" : "CCD Cycling",
+                    "time" : "5:45-6:30pm",
+                    "location" : "JCC Dallas",
+                    "type" : "ccd",
+                    "link" : "http://www.siskiyouvelo.org"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+--- Manage Themes ---
+$LastChangedDate: 2012-06-05 05:42:33 -0700 (Tue, 05 Jun 2012) $
+$Rev: 8661 $
+
+[themes]
+On this panel, you can select the theme you want to use for Simple:Press from a list of available themes.
+[end]
+
+[theme-editor]
+On this panel, you can edit the current Simple:Press theme stylesheets and template files.
+[end]
+
+[mobile-support]
+On this panel, if mobile theme support is enabled, you can choose an alternate theme to display if the forum is being viewed by a mobile agent.
+[end]
+
+[upload-theme]
+On this panel, you can upload a theme for Simple:Press. The theme must be in a .zip archive and resident on your local machine for uploading.  After uploading the theme, it will be available for selection in the Simple:Press theme admin panel.
+[end]

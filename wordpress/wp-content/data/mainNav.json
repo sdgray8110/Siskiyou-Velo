@@ -1,0 +1,77 @@
+{
+    "Siskiyou Velo" : {
+        "class": "velo",
+        "type": "flat",
+        "categoryID" : "",
+        "links": {
+            "Homepage": "/",
+            "Join The Velo": "/join.php",
+            "Officers": "/officers.php",
+            "Supporting Businesses": "/businesses.php",
+            "Club Store &amp; Classifieds": "/clubstore.php",
+            "Links": "/links.php",
+            "Contact Us": "/officers.php"
+        }
+    },
+
+    "Advocacy": {
+        "class": "advocacy",
+        "type": "flat",
+        "categoryID" : "",
+        "links": {
+            "Advocacy Overview": "/advocacy.php",
+            "Resources &amp; Contacts": "/advocacy.php?pageID=Contacts",
+            "Reported Local Cycling Issues": "/advocacy.php?pageID=Issues",
+            "Advocacy Portfolio": "/advocacy.php?pageID=Portfolio",
+            "Bicycle Safety Tips": "/advocacy.php?pageID=Safety",
+            "Report Cycling Hazards": "/advocacy.php?pageID=Hazards"
+        }
+    },
+
+    "Newsletters": {
+        "class": "news",
+        "type": "news",
+        "categoryID" : ""
+    },
+
+    "Rides &amp; Events": {
+        "class": "rides",
+        "type": "flat",
+        "categoryID" : "",
+        "links": {
+            "Current Ride Schedule": "/schedule.php",
+            "Ride Maps": "/ridemaps.php",
+            "Local Racing": "/racing.php",
+            "Mountain Lakes Challenge": "http://www.mountainlakeschallenge.com"
+        }
+    },
+
+    "Club Members Only": {
+        "class": "memberMenu",
+        "type": "member",
+        "categoryID" : "",
+        "links": {
+            "Membership Directory": "/members.php",
+            "My Member Profile": "/member-profile.php",
+            "Education and Skills Training ": "/members-training-education.php",
+            "Post Item to Classifieds": "/member_classifieds.php",
+            "Google Groups Mailing List": "http://groups.google.com/group/siskiyouvelo"
+        }
+    },
+
+    "Officers Only": {
+        "class": "memberMenu",
+        "type": "officer",
+        "categoryID" : "",
+        "links": {
+            "Post Homepage Update": "/blog_post.php",
+            "Post Rides to Schedule": "/post_schedule.php",
+            "Newsletter Schedule": "/printable_schedule.php",
+            "Newsletter Upload": "/news_post.php",
+            "Send Newsletter Email": {
+                    "link": "/includes/news_email.php?send=yes&height=200&width=300",
+                    "class": "thickbox"
+            }
+        }
+    }
+}

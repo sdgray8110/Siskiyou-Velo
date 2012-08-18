@@ -1,0 +1,5 @@
+input {margin:0 0 10px 0; width:600px;}
+input.submit {width:auto; margin:10px 0; display:inline;}
+label {font-weight:700;}
+label, input, textarea, p {display:block; font-family:arial,helvetica, san-serif; font-size:12px;}
+textarea {width:594px; height:300px; padding:3px;}

@@ -1,0 +1,18 @@
+body {background:#fff; font-family:verdana, arial san-serif; color:#000; margin:0 0 0 20px;}
+#wrapper {background:#fff;}
+#header {display:none;}
+#mainNav {display:none;}
+#rightContent {display:none;}
+.loginBar {display:none}
+#newFooter {display:none;}
+p.blogInfo {display:none;}
+.quickView {display:none;}
+#leftContent h1 span {display:none;}
+
+ul.mainSchedule {width:654px; overflow:hidden; display:block}
+ul.mainSchedule li {display:block; list-style-type:none; float:left; clear:none; width:290px; height:90px; margin:0 9px 0 0;}
+
+#leftContent h1 {font-size:20px;}
+#leftContent h3 {font-size:14px;}
+#leftContent p {font-size:11px !important;}
+#leftContent a, #leftContent a:visited {color:navy}

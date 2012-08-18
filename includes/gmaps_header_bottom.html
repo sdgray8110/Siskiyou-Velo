@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="2009.css" />
+
+<script>
+function clearDefault(el) {
+  if (el.name == "password")
+  	el.type = "password"
+
+	if (el.defaultValue==el.value) 
+		el.value = ""	
+	}
+
+</script>
+
+</head>
+
+<body onLoad="onLoad();addPoints()"onunload="GUnload()">
+<div id="wrapper">

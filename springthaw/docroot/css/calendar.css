@@ -1,0 +1,17 @@
+#calendar {width:994px; background:#999; padding:0 0 0 1px; margin:auto; font-family:arial, helvetica, san-serif; position:relative;}
+#calendar h2 {text-align:center; width:400px; margin:auto; color:#fff;}
+#calendar ul {margin:0; padding:0; list-style-type:none; overflow:hidden; clear:both;}
+#calendar li {margin:0 1px 1px 0; display:block; width:141px; background:#fff; float:left; height:120px;}
+#calendar li.dayHeaders {text-align:center; background:#ccc; height:25px;}
+#calendar li.dayHeaders h3 {margin:3px 0;}
+#calendar li.empty {background:#eee}
+#calendar li h5 {background:#777; color:#fff; float:right; width:20px; height:15px; line-height:15px; font-size:11px; margin:1px 1px 5px 1px; text-align:center;}
+#calendar .event {margin: 0 5px 5px; padding: 3px; clear:both; background: #ffcc66; cursor:pointer;}
+#calendar .event h6, #calendar .event p {margin:0; font-size:11px;}
+#calendar .event div {background:#ffffcc; padding:5px; margin:2px; display:none;}
+#calendar .event:hover div {display:block;}
+#calendar .event, #calendar .event div {-moz-border-radius:3px; -webkit-border-radius:3px;}
+#calendar .race {background: #ccccff}
+#calendar .pager {position:absolute; font-size:12px; display:block; top:0; margin:5px;}
+#calendar .pager.prev {left:0;}
+#calendar .pager.next {right:0;}

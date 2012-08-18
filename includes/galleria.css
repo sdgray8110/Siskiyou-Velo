@@ -1,0 +1,20 @@
+*{margin:0;padding:0}
+.caption{font-style:italic;color:#887;}
+.demo{position:relative;margin-top:2em;}
+.gallery_demo{width:702px;margin:0 auto;}
+.gallery_demo li{width:68px;height:50px;border:1px double #000;}
+.gallery_demo li div{left:240px}
+.gallery_demo li div .caption{font:italic 0.7em/1.4 georgia,serif;}
+.galleria_wrapper {width:513px; text-align:center;}
+	
+#main_image{margin:5px 0 5px 5px; max-width:424px; float:left;}
+#main_image img{margin:0 auto;}
+	
+.galleria{list-style:none;width:128px; float:left; margin:0; padding:0;}
+.galleria li{display:block;width:50px;height:50px;overflow:hidden;float:left;margin:5px}
+.galleria li a{display:none}
+.galleria li div{position:absolute;display:none;top:0;left:180px}
+.galleria li div img{cursor:pointer}
+.galleria li.active div img,.galleria li.active div{display:block}
+.galleria li img.thumb{cursor:pointer;top:auto;left:auto;display:block;width:auto;height:auto}
+* html .galleria li div span{width:400px} /* MSIE bug */	

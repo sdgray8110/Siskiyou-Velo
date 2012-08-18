@@ -1,0 +1,35 @@
+.basic  {
+	width: 654px;
+	font-family: verdana;
+}
+.basic div {
+		background:url(http://www.siskiyouvelo.org/images/rides_background.jpg) no-repeat #343434;}
+
+.basic div p {
+	border: none;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 10px !important;
+	margin: 0px !important; 
+}
+div.basic a {font-family:Arial, Helvetica, sans-serif; cursor:pointer; display:block; padding:5px; margin-top: 0; text-decoration: none; font-weight: bold; font-size: 16px; color: #ccc !important; background:#3e3e3e url(images/rightdown.gif) no-repeat 610px 2px; border-top:1px dotted #ccc; clear:both;}
+div.basic a:hover {background: #ccc url(images/rightdown_dark.gif) no-repeat 610px 2px; color:#333 !important; }
+div.basic a.selected {background-color: #000; color:#fff !important;  background-image:none;}
+
+.basic li a, .basic li a:hover {border:none !important;}
+div.mapgif a {padding:0 !important;}
+
+div.mapgif img {border:3px solid #454444; margin:0;}
+div.mapgif img:hover {border:3px solid #e1e3d2;}
+
+
+.basic p.rideHead {font-size:11px !important; color:#e1e3d2; margin:0 !important; display:block; font-weight:normal; line-height:12px;}
+.basic p.rideHead strong {color:#FFF;}
+
+ul.rideSlide {margin:0; padding:0; width:654px; height:530px; list-style-type:none;}
+.rideSlide li {width:194px; margin:12px; float:left;}
+
+ul.links, ul.links li, ul.links li a, ul.links li a:visited {list-style-type:none; background:none; font-size:11px; font-weight:normal; padding:0; margin: 0; color:#e1e3d2 !important;}
+ul.links {padding:10px 15px 15px 15px; float:left; background:url(images/panel_back.gif) no-repeat left bottom;}
+ul.links li {width:312px; float:left;}
+ul.links li a:hover {color:#fc0 !important; background:none;}

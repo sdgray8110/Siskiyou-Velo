@@ -1,0 +1,224 @@
+
+
+
+
+
+<!DOCTYPE HTML>
+<html>
+
+
+
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Language" content="en-us" />
+
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport">	
+		
+		<!-- ===== START [STYLESHEETS] ===== -->
+		<!-- START [COMMON] -->
+		<link href="mobile.css?vId=5" rel="stylesheet" type="text/css" />
+		<!-- end [common] -->
+		<!-- START [PAGE] -->
+		
+			<link href="cart.css?vId=5" rel="stylesheet" type="text/css" />
+		
+		<!-- end [page] -->				
+		
+		
+<meta name="pageTemplate" content="/cart/" />
+
+		<title>Mobile Musician's Friend</title>
+	</head>
+    <body>
+		<div id="mobile">
+			 <!-- GlOBAL NAV -->
+<header>
+    <h1><span>Musician&rsquo;s Friend Mobile</span></h1>
+
+    <form>
+        <input id="search" type="text" placeholder="search">
+        <input id="searchSubmit" type="submit" value="">
+    </form>
+    
+    <nav>
+        <a id="navHome" class="active" href="">Home</a>
+        <a id="navBrowse" href="">Browse</a>
+        <a id="navCart" href="">Cart (0)</a>
+
+        <a id="navMyAccount" class="last" href="">My Account</a>
+    </nav>
+</header>
+<!-- end global nav -->
+			
+    
+
+
+
+<!-- SHOPPING CART CONTENT -->
+<section class="shoppingCart">
+    <div class="sectionHeader">
+        <a class="back btn" href=""><span></span>Back</a>
+        <h2>Shopping Cart</h2>
+
+    </div>
+    
+    <dl class="cartOverview">
+        <dt>3 Items</dt>
+        
+        <dt>Estimated Subtotal:</dt>
+        <dd>$1,639.94</dd>
+    </dl>
+
+    <div id="shoppingCart">
+
+        <form id="shoppingCartForm" action="" method="">
+
+<!-- SHOPPING CART ITEMS -->            
+            <ul class="cartItems">
+<!-- ITEM #1 -->                    
+                <li class="item">
+                    <div class="productDetails">
+                        <h3><a href="">Gibson Les Paul Studio Electric Guitar</a></h3>
+                        <h4>$1,500.00</h4>
+                    </div>
+
+                    
+                    <fieldset>
+                        <select id="cartQuantity_1" name="cartQuantity_1">
+                            <option value="1" selected="selected">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>                                    
+                        </select>
+                        
+                        <a class="btn" id="cartUpdate_1" href="">Update</a>
+                        <a class="remove" id="cartRemove_1" href="">Remove</a>                                
+                    </fieldset>
+
+                    
+                    <dl class="stockStatus">
+                        <dt>Available:</dt>
+                        <dd class="inStock">In-Stock</dd>
+                    </dl>
+                    
+                    <ul class="extras">
+                        <li class="freeGift">Includes Free Gift - <a href="">Shure SM56 Microphone</a></li>
+                        <li class="rebate">Has Rebate - <a href="">$100 Mail-In-Rebate</a></li>
+
+                    </ul>
+                </li>
+<!-- end item #1 -->
+
+<!-- ITEM #2 -->
+                <li class="item">
+                    <div class="productDetails">
+                        <h3><a href="">VOX AC-30 Custom Classic Guitar Amp</a></h3>
+                        <h4>$999.99</h4>
+
+                    </div>
+                    
+                    <fieldset>
+                        <select id="cartQuantity_2" name="cartQuantity_2">
+                            <option value="1" selected="selected">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>                                  
+                        </select>
+                        
+                        <a class="btn" id="cartUpdate_2" href="">Update</a>
+
+                        <a class="remove" id="cartRemove_2" href="">Remove</a>                                
+                    </fieldset>
+                    
+                    <dl class="stockStatus">
+                        <dt>Available:</dt>
+                        <dd class="inStock">In-Stock</dd>
+                    </dl>
+                </li>
+<!-- end item #2 -->                        
+            </ul>
+
+<!-- end items -->                    
+
+<!-- CART OVERVIEW -->                    
+            <dl class="cartOverview">
+                <dt class="singleLabel">3 Items</dt>
+                
+                <dt>Estimated Subtotal:</dt>
+                <dd>$1,639.94</dd>
+            </dl>
+            
+            <dl class="cartDiscounts">
+                <dt>Coupon:</dt>
+
+                <dd>-$100.00</dd>
+            </dl>
+            
+            <div class="cartTotals">
+                <dl>
+                    <dt>Order Total:</dt>
+                    <dd>$1,539.94</dd>
+                </dl>
+
+            </div>
+<!-- end cart overview -->                    
+            
+<!-- APPLY COUPON -->                    
+            <fieldset>
+                <input type="submit" class="checkout" id="continueToCheckout" value="Checkout">
+            </fieldset>
+        </form>
+        
+        <form id="cartCoupon" action="" method="">
+            <fieldset>
+                <label for="couponCode">Enter Coupon Code:</label>
+
+                <input id="couponCode" value="SAVE15" name="couponCode" type="text">
+                <input type="submit" class="btn" value="Apply Coupon">
+            </fieldset>
+        </form>
+<!-- end apply coupon -->
+        
+    </div>
+</section>
+<!-- end shopping cart content -->
+
+			<!-- GLOBAL FOOTER -->
+<footer>
+
+    <h3><a href="tel:800-391-8762">800-391-8762</a></h3>
+    <p class="siteType">Site View: <strong>Mobile</strong> | <a href="">Standard</a></p>
+    <p>&copy; 2010 Musicians Friend, Inc.</p>
+    <p><a href="">Terms &amp; Conditions</a> | <a href="">Privacy Policy</a></p>
+
+</footer>
+<!-- end global footer -->
+			
+		</div>
+		
+			<script type="text/javascript" src="/cmn/mobileProdJs/global.js?vId=5"></script>
+			
+<var id="siteName" class="hidden">/mf-mobile</var>
+<var id="context_path" class="hidden">/mobile-mf</var>
+<var id="unicaEnv" class="hidden">site-devint</var>
+<var id="staticContentUrl" class="hidden"></var>
+<var id="staticVersion" class="hidden">5</var>
+
+<var id="customerServicePhone" class="hidden">888-566-6123</var>
+
+
+    </body>
+</html>

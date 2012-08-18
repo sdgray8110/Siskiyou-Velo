@@ -1,0 +1,85 @@
+* {padding:0; margin:0;}
+body, html {width:100%; height:100%; background: #eee}
+#wrapper {width:100%; min-height:100%;}
+
+#header {width:100%; height:173px; background:url(images/logos.jpg) no-repeat #111112; border-bottom:2px solid #cc912b; }
+#header p {width:660px; margin:0 0 0 325px; padding:150px 0 0 0; color:#f6ec88; font-size:13px; text-align:right; font-family:Arial, Helvetica, sans-serif;}
+#header p a, #header p a:visited {color:#8dc8ea; font-weight:bold; text-decoration:underline;}
+#header p a:hover {text-decoration:none;}
+div.fck {width: 476px; margin:4px 0 0 19px;}
+
+/* NAV */
+ul.nav {float: left; width:177px; list-style-type:none; margin:0; padding:0; background:#222222;}
+ul.nav li {width:162px; height:27px; font-family:Arial, Helvetica, sans-serif; font-size:18px; padding:5px 0 0 15px; color:#fff; text-decoration:none; border-bottom:1px solid #9b9b9b; background:url(images/nav_arrow_hover.png) 168px 0 no-repeat; display: block;}
+ul.nav li a, ul.nav li a:visited {width:177px; height:32px; text-decoration:none; color:#fff; display: block; }
+ul.nav li a:hover {color:#333; background:url(images/nav_arrow_hover.png) 168px 0 no-repeat #fff; width:162px; height:27px; margin:-5px 0 0 -15px; padding:5px 0 0 15px;}
+ul.nav li.active {background:url(images/nav_arrow_active.png) 168px 7px no-repeat #000;}
+
+/* MAIN BODY */
+h1.title {float:left; margin:5px 0 0 12px; font-family:Arial, Helvetica, sans-serif; font-size:26px; text-transform:uppercase; color:#373737;}
+#mainContent {width:100%; min-height:100%; float:left; background:url(images/body_back_grad.gif) #eee repeat-x;}
+#mainContainer {width:823px; float:left; margin:0 0 0 -5px; padding:0;}
+
+#subCont {width:500px; float:left;}
+#subCont p {font-size:12px; font-family:Arial, Helvetica, sans-serif; margin:5px 53px;}
+#subCont p a {color:#8dc8ea; font-weight:bold; text-decoration:underline;}
+#subcont p a:hover {text-decoration:none;}
+#rightCont {width:300px; float:left; font-family:Arial, Helvetica, sans-serif;}
+div.mainBody {width:805px; min-height:100%; background:url(images/mainbody_back.gif) repeat-y; float:left; clear:both; margin:7px 0 12px 12px;}
+div.mainBody_top {width:805px; height:21px; background:url(images/mainbody_top.gif) no-repeat; margin:0; padding:0;}
+div.mainBody_bottom {float:left; width:805px; height:21px; background:url(images/mainbody_bottom.gif) no-repeat;  margin:0; padding:0;}
+h2 {font-size:24px; background:url(images/h2_pushpin.gif) no-repeat; padding:0 0 0 35px; margin:0 0 0 15px; color:#696969; font-family:Arial, Helvetica, sans-serif;}
+div.mainBody p.sublink {font-size:12px; font-family:Arial, Helvetica, sans-serif;}
+div.mainBody p.sublink a, div.mainBody p.sublink a:visited {text-decoration:underline; color:#8dc8ea; font-weight:bold;}
+div.mainBody p.sublink a:hover {color:#000;}
+
+
+ul.postList {margin:0 25px; list-style-type:none;}
+ul.postList li {padding-bottom:7px; border-bottom:1px solid #ccc;}
+ul.postList h3 {background:none; width:100%; margin:7px 0; padding:0; font-family:Century Gothic, Verdana, Geneva, sans-serif; font-size:18px; font-weight:bold; text-transform:uppercase;}
+ul.postList h3 a, ul.postList h3 a:visited {color:#8dc8ea; text-decoration:none;}
+ul.postList h3 a:hover {border-bottom:1px solid #8dc8ea;}
+ul.postList p {margin:0 15px; font-family:Arial, Helvetica, sans-serif; color:#000; font-size:11px;}
+ul.postList p a, ul.postList p a:visited {color:#000; font-weight:bold;}
+ul.postList p a:hover {color:#8dc8ea;}
+
+/* RIGHT CONTENT */
+h3 {width:268px; height:19px; background:url(images/h3_back.gif) no-repeat; color:#696969; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; margin:25px 0 0 20px; padding:5px 8px 0 8px;}
+table.rightBody {width:268px; margin:0 0 0 20px;  background:#fff;}
+td.label {border-bottom:1px solid #e4e4e4; border-left:1px solid #e4e4e4; font-size:11px; font-weight:normal; color:#000;width:250px; padding:4px 0px;}
+td.check {border-bottom:1px solid #e4e4e4; border-right:1px solid #e4e4e4; font-size:11px; font-weight:normal; color:#000; width:16px; padding:4px 0px;}
+table.rightBody p, table.rightbody input {padding:0 7px;}
+
+div.rightBase_body {width:268px; margin:0 0 0 20px; background:url(images/right_nav_back.gif) repeat-y;}
+div.rightBase_body p {padding:4px 7px; font-size:11px; font-weight:normal; color:#000; margin:0 !important}
+div.rightBase {width:268px; height:7px; margin:0 0 0 20px; background:url(images/right_nav_base.gif) repeat-y;}
+
+/* LOGIN */
+loginBody {width:100%; background:#eee; margin:0; padding:0;}
+div.login {width:515px; margin:200px auto;}
+div.login_top {width:515px; height:21px; background:url(images/login_top.gif) no-repeat; margin:0; padding:0;}
+div.login_body {width:515px; background:url(images/login_back.gif) repeat-y;}
+	div.login_body hr {width:475px; margin:10px auto;}
+	div.login_body input.submit {margin:8px 0 0 350px}
+	div.login_body p {font-family:Arial, Helvetica, sans-serif; font-size:12px; margin:7px 22px 0 22px; padding-bottom:7px;}
+div.login_bottom {width:515px; height:21px; background:url(images/login_bottom.gif) no-repeat; margin:0;}
+
+/* FORMS */
+label {margin:15px 0 0 35px; font-family:Arial, Helvetica, sans-serif; color:#4b4b4b; font-size:16px; font-weight:bold; display:block; clear:both;}
+label.top {margin:0 0 0 35px;}
+label span {font-size:11px; font-weight:normal; font-style:italic; color:#666;}
+input.text, input.required, input.required email, input.url {display:block; clear:both; width:463px; height:33px; background:url(images/input_back.gif) no-repeat; border:none; margin:0 0 0 15px; padding: 5px 10px; font-family:Century Gothic, Verdana, Geneva, sans-serif; font-size:20px; font-weight:bold; color:#8dc8ea;}
+input.category {margin:3px 0 0 10px; width:140px; font-size:11px; height:15px; padding:2px;}
+input.submit, input.mainSubmit, button.submit {width:137px; height:27px; background:url(images/submit.png) no-repeat; color:#333; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; text-align:center; border:none;}
+input.submit, button.submit {margin:8px 0 0 120px;}
+input.racing {font-size:11px; margin: 0 10px; padding: 1px 3px; width: 120px}
+
+input.mainSubmit {margin:8px 0 0 340px;}
+input.submit:hover, input.mainSubmit:hover, button.submit:hover {color:#000; cursor:pointer;}
+select {font-size:10px; width:245px; margin:10px}
+#col_manager_list {height:350px}
+
+/* INPUT VALIDATION */
+input.error {background:url(images/input_back_error.gif) no-repeat;}
+label.error {margin:0 0 10px 25px; font-size:12px; float:left; color:#bd2426;}
+

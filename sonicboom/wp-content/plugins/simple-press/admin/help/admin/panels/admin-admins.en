@@ -1,0 +1,47 @@
+--- Manage Admins ---
+$LastChangedDate: 2012-06-05 05:42:33 -0700 (Tue, 05 Jun 2012) $
+$Rev: 8661 $
+
+[manage-admins]
+<strong>Manage Admins Capabilities</strong><br /><br />
+This admin panel is used to edit/set the capabilities of current Simple:Press administrators and to grant capabilities to users to make them become administrators.  Each of the Simple:Press admin panels has a unique WordPress capability defined that can selectively be granted to users to allow them access to the back end admin panels.  Please note, a user with ANY admin capabilities defined will be granted admin rights on the front end of Simple:Press.
+<br /><br />
+To modify the capabilities for existing admins, use the top section and update their capabilities as desire and hit the Update Current Admin Capabilities button.  You can edit as many current admins at once that you need to. To remove admin status from an existing admin, uncheck all the capabilities and hit the update button, and the user will lose all admin capabilities.Please note that you cannot remove the manage admins capability from yourself.  This prevents you from mistakenly deleting yourself as an Simple:Press admin or locking yourself out of the manage admins panel.<br /><br />
+The middle section of this admin panel is used to make users into new admins.  Each of the Simple:Press admin panels has a unique WordPress capability defined that can selectively be granted to users to allow them access to the back end admin panels.  Please note, a user with ANY admin capabilities defined will be granted admin rights on the front end of Simple:Press.  Select any users you desire to become admins and select the desired capabilities for these new admins and hit the Add New Admin button.  Multiple users can be selected at once with the use of the shift or Ctrl keys.  However, if multiple users are selected, they all must initially be given the same admin capabilities.  They can later be edited with the edit current admin capabilities section of this admin panel.<br /><br />
+The bottom section of this admin panel is only provided for your information.  It is a listing of WordPress administrators (defined as having the 'administrator' capability), but do not have any Simple:Press admin capabilities.
+[end]
+
+[your-admin-options]
+<strong>Individual Admin Options</strong><br /><br />
+These admin options are customizable by each Administrator.<br /><br />
+<strong>Notify Admin (email) on new Topic/Post</strong><br />
+Every time a new post is made, an email will be sent to you.<br /><br />
+<strong>Custom Offline Status Message</strong><br />
+If you are using the sf_admin_mod_status() template tag, you can leave a custom offline status message here.  This message will display with the template tag when you are offline.
+[end]
+
+[dashboard-options]
+You can choose to have the WordPress Dashboard display a 'Forum' section containing a list of new, unread posts and/or the latest
+forum statistics. Additionally, you can choose to have all posts within a topic awaiting moderation approved whenever an admin and/or moderator posts in that topic.
+[end]
+
+[change-admin-background-colors]
+The left hand panel of this form allows you to change the main <b>background</b> colors of the forum's admin pages.<br /><br />
+Click on the color icon to make your color selections against the specific item you wish to change. The right hand panel allows
+you to change the corresponding <b>text</b>.<br /><br />
+For an explanation of each item click on the 'information' icon beside each one. <b>Please Note</b> the display will be updated when a page
+is reloaded - not just a tab.
+[end]
+
+[change-admin-text-colors]
+The right hand panel of this form allows you to change the main <b>text</b> colors of the forum's admin pages.<br /><br />
+Click on the color icon to make your color selections against the specific item you wish to change. The left hand panel allows
+you to change the corresponding <b>background</b>.<br /><br />
+For an explanation of each item click on the 'information' icon beside each one. <b>Please Note</b> the display will be updated when a page
+is reloaded - not just a tab.
+[end]
+
+[reset-admin-colors]
+This panel allows you to reset the Simple:Press admin colors back to one of two defaults.  You can either reset back to a blue (to match WordPress blue admin colors)
+or grey (to match WordPress grey admin colors).  If you select either reset checkbox, any other admin color changes made will be ignored.
+[end]
