@@ -26,6 +26,8 @@ class homepageHelper {
             $images[] = $image;
         }
 
+        shuffle($images);
+
         return $images;
     }
 
