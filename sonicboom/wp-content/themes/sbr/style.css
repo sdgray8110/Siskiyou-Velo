@@ -69,6 +69,44 @@ a {
     cursor: pointer;
 }
 
+/* Fonts */
+
+@font-face{
+    font-family: 'Gotham';
+    src: url('fonts/gotham/gotham-book-webfont.eot');
+    src: url('fonts/gotham/gotham-book-webfont.eot?iefix') format('eot'),
+    url('fonts/gotham/gotham-book-webfont.woff') format('woff'),
+    url('fonts/gotham/gotham-book-webfont.ttf') format('truetype'),
+    url('fonts/gotham/gotham-book-webfont.svg#webfont') format('svg');
+}
+
+@font-face{
+    font-family: 'GothamLight';
+    src: url('fonts/gotham/gotham-light-webfont.eot');
+    src: url('fonts/gotham/gotham-light-webfont.eot?iefix') format('eot'),
+    url('fonts/gotham/gotham-light-webfont.woff') format('woff'),
+    url('fonts/gotham/gotham-light-webfont.ttf') format('truetype'),
+    url('fonts/gotham/gotham-light-webfont.svg#webfont') format('svg');
+}
+
+@font-face{
+    font-family: 'GothamBold';
+    src: url('fonts/gotham/gotham-bold-webfont.eot');
+    src: url('fonts/gotham/gotham-bold-webfont.eot?iefix') format('eot'),
+    url('fonts/gotham/gotham-bold-webfont.woff') format('woff'),
+    url('fonts/gotham/gotham-bold-webfont.ttf') format('truetype'),
+    url('fonts/gotham/gotham-bold-webfont.svg#webfont') format('svg');
+}
+
+@font-face{
+    font-family: 'GothamBlack';
+    src: url('fonts/gotham/gotham-black-webfont.eot');
+    src: url('fonts/gotham/gotham-black-webfont.eot?iefix') format('eot'),
+    url('fonts/gotham/gotham-black-webfont.woff') format('woff'),
+    url('fonts/gotham/gotham-black-webfont.ttf') format('truetype'),
+    url('fonts/gotham/gotham-black-webfont.svg#webfont') format('svg');
+}
+
 /* Global */
 body {
     background: url(images/bg-main.jpg) repeat;
@@ -306,7 +344,7 @@ textarea.text {
 }
 
 #header #menu-item-82 {
-    margin-left:100px;
+    margin-left:95px;
 }
 
 #header .menu .sub-menu,
@@ -1197,6 +1235,243 @@ header.results {
     float: left;
     clear:both;
 }
+
+/* Race Page */
+#content.race #header {
+    border-bottom: 2px #fff;
+    padding: 20px 0 2px;
+    background: #fff;
+}
+
+#content.race .content {
+    width:958px;
+    margin: 0;
+}
+
+.raceInfo {
+    background: url(images/race_background.jpg) 0 0 no-repeat;
+    float: left;
+}
+
+.raceInfo header {
+    background: none;
+    width: 878px;
+    float: left;
+    margin: 40px;
+}
+
+.raceInfo header h2 {
+    text-indent: 0;
+    background: none;
+    font-family: GothamBold;
+    text-transform: uppercase;
+    font-size: 48px;
+    width:315px;
+    color:#fff;
+    padding: 0 25px 30px 0;
+    margin: 0 15px 0 0;
+    border-right: 10px solid #fff;
+    line-height: 57px;
+    opacity: .25;
+    float: left;
+}
+
+.raceInfo header .location {
+    float: left;
+    width:205px;
+    font-size: 21px;
+    font-family: GothamBold;
+    line-height: 24px;
+    padding: 0 0 7px 0;
+    border-bottom: 7px solid #fff;
+    color:#fff;
+    opacity: .25;
+    text-transform: uppercase;
+    float: left;
+    margin: 8px 0 0;
+}
+
+.raceInfo .prizes {
+    float: left;
+    width: 310px;
+    margin: 5px 0 0;
+}
+
+.raceInfo .prizes .purse {
+    color:#ee2e24;
+    opacity: .65;
+    font-family: GothamBlack;
+    font-size: 70px;
+    float: left;
+    display: block;
+}
+
+.raceInfo .prizes .label {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: GothamBold;
+    width: 80px;
+    color:#fff;
+    opacity: .25;
+    display: block;
+    float: left;
+    margin: 32px 0 0 7px;
+}
+
+.raceInfo .raceOverview {
+    float: left;
+    margin: 0 30px 5px 30px;
+    width: 898px;
+}
+
+.raceInfo .raceOverview .year {
+    display: block;
+    float: left;
+    width:35px;
+    height: 224px;
+    background: url(images/2012.png) 0 0 no-repeat;
+    text-indent: -9999px;
+    margin: 10px 20px 0 0;
+
+}
+
+.raceInfo .raceOverview > img {
+    display: block;
+    float: left;
+    margin:0 80px 0 0;
+}
+
+.raceInfo .raceOverview ul {
+    float: left;
+    width: 315px;
+    margin: 10px 0 20px;
+}
+
+.raceInfo .raceOverview .men {
+    padding: 0 0 11px;
+    border-bottom: 8px solid rgba(255,255,255,.3);
+    margin: 0 0 15px;
+}
+
+.raceInfo .raceOverview .men p,
+.raceInfo .raceOverview .women p {
+    color:#fff;
+    font-family: GothamLight;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0 0 4px;
+}
+
+.raceInfo .raceOverview .men strong,
+.raceInfo .raceOverview .women strong {
+    font-weight: 300;
+    font-family: GothamBold
+}
+
+.raceInfo .courseDescription {
+    float: left;
+    width:878px;
+    margin: 0 40px 60px 40px;
+}
+
+.raceInfo .courseDescription aside {
+    width:365px;
+    height:134px;
+    background: url(images/raceDescriptionBack.png) 0 0 no-repeat;
+    padding: 45px 18px 10px;
+    float: left;
+    margin: 0 25px 0 0;
+}
+
+.raceInfo .courseDescription aside h4 {
+    font-size: 16px;
+    font-family: GothamBold;
+    color:#fff;
+    text-transform: uppercase;
+    margin:0 0 10px;
+}
+
+.raceInfo .courseDescription aside p {
+    font-size: 12px;
+    color:#fff;
+    line-height: 15px;
+    font-family: GothamBold;
+    text-transform: uppercase;
+}
+
+.raceInfo .shortDescription {
+    width: 215px;
+    padding: 0 0 8px;
+    margin: 0 0 15px;
+    border-bottom: 8px solid rgba(255,255,255,.1);
+    float: left;
+}
+
+.raceInfo .shortDescription .length {
+    display: block;
+    float:left;
+    font-size: 70px;
+    margin: 0 10px 0 0;
+    font-family: GothamBlack;
+    color:#fff;
+    opacity: .1;
+}
+
+.raceInfo .shortDescription .descriptionText {
+    display: block;
+    float: left;
+    width: 120px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: GothamBold;
+    color:#fff;
+    margin: 14px 0 0;
+    opacity: .25;
+}
+
+.raceInfo .mapLink {
+    width: 400px;
+    float: left;
+}
+
+.raceInfo .mapLink a {
+    opacity: .25;
+    -webkit-transition: opacity .3s;
+    -moz-transition: opacity .3s;
+    -ms-transition: opacity .3s;
+    color:#fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: GothamBold;
+    text-transform: uppercase;
+}
+
+.raceInfo .mapLink a:hover {
+    opacity: 1;
+}
+
+.raceInfo .button {
+    display: block;
+    float: left;
+    color: #fff;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 25px;
+    border-radius: 7px;
+    background: rgba(255,255,255,.3);
+    -webkit-transition: background .3s;
+    -moz-transition: background .3s;
+    -ms-transition: background .3s;
+    font-size: 14px;
+    font-family: Gotham;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.raceInfo .button:hover {
+    background: rgba(255,255,255,.6);
+}
+
 
 /* Fancybox */
 .fancybox-tmp iframe, .fancybox-tmp object {

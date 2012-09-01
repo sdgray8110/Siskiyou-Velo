@@ -39,6 +39,10 @@ if ( ! function_exists( 'sbr_setup' ) ) {
             require_once($themeDir . '/classes/class.stravaHelper.php');
         }
 
+        if (!class_exists('raceHelper')) {
+            require_once($themeDir . '/classes/class.raceHelper.php');
+        }
+
 
         // Add Scripts To The Footer
         add_action('wp_enqueue_scripts', 'footer_scripts');
