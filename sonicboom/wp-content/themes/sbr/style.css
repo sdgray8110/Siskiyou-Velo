@@ -224,6 +224,7 @@ textarea.text {
     position: relative;
     z-index: 3;
     font-weight: 700;
+    font-family: GothamBold;
 }
 
 .faux-select.active .value {
@@ -246,6 +247,7 @@ textarea.text {
 
 .faux-select .dropdown a {
     width:100%;
+    font-family: Gotham;
 }
 
 .faux-select.active {
@@ -341,10 +343,15 @@ textarea.text {
     height: 25px;
     display: block;
     padding:0 90px 0 0;
+    font-family: Gotham;
 }
 
 #header #menu-item-82 {
     margin-left:95px;
+}
+
+#header #menu-item-122 {
+    margin-right: 0;
 }
 
 #header .menu .sub-menu,
@@ -391,6 +398,7 @@ textarea.text {
     padding:0 13px;
     text-decoration: none;
     font-size: 13px;
+    font-family: Gotham;
 }
 
 #header #menu-item-4 .sub-menu,
@@ -458,6 +466,7 @@ textarea.text {
     padding:18px 40px 18px 215px;
     font-size: 14px;
     line-height: 18px;
+    font-family: Gotham;
 }
 
 #photoCarousel .carouselControl {
@@ -557,10 +566,11 @@ textarea.text {
     margin-top: 10px;
     font-size: 14px;
     line-height: 17px;
+    font-family: Gotham;
 }
 
 #videoCarousel .carouselItem em {
-    font-weight: 700;
+    font-family: GothamBold;
 }
 
 #youtubeFeed .carouselControl {
@@ -623,6 +633,7 @@ textarea.text {
     margin: 0 1px 1px 0;
     text-align: center;
     line-height: 90px;
+    font-family: Gotham;
 }
 
 .resultsContent dt.placing_1 {
@@ -648,6 +659,7 @@ textarea.text {
     font-size: 14px;
     color:#000;
     margin:25px 25px 0 25px;
+    font-family: Gotham;
 }
 
 .newsUpdates .icon.race_report,
@@ -660,6 +672,7 @@ textarea.text {
     font-size: 10px;
     padding-left: 32px;
     height: 16px;
+    font-family: Gotham;
 }
 
 /* Single Blog Page */
@@ -712,11 +725,12 @@ textarea.text {
 
 .blogpost .postContent header h2 {
     font-size: 22px;
-    font-weight: 700;
+    font-family: GothamBold;
     margin-bottom: 4px;
 }
 
 .blogpost .postContent header p {
+    font-family: Gotham;
     font-size: 11px;
 }
 
@@ -821,6 +835,11 @@ header.latestResults h3 {
 
 .sidebar .results li p {
     font-size: 11px;
+    font-family: Gotham;
+}
+
+.sidebar .results li p strong {
+    font-family: GothamBold;
 }
 
 .sidebar iframe {
@@ -844,6 +863,7 @@ header.latestResults h3 {
     font-size: 18px;
     padding-left: 30px;
     background: url(images/blog_nav_carat.png) 0 center no-repeat;
+    font-family: Gotham;
 }
 
 .sidebar .postlist li {
@@ -912,7 +932,7 @@ header.archives h3 {
 }
 
 .team h2 {
-    font-weight: 700;
+    font-family: GothamBold;
 }
 
 .team .postContent article {
@@ -986,7 +1006,7 @@ header.archives h3 {
 
 .team .riderInfo h4 {
     margin: 8px;
-    font-weight: 700;
+    font-family: GothamBold;
     text-align: center;
     position: relative;
     font-size: 14px;
@@ -1003,6 +1023,7 @@ header.archives h3 {
     font-size: 12px;
     height: 0;
     cursor: default;
+    font-family: Gotham;
 }
 
 .riders li:hover .riderInfo {
@@ -1065,6 +1086,7 @@ form.contact {
 }
 
 .contact textarea.text {
+    font-family: Gotham;
     width: 430px;
     height: 300px;
 }
@@ -1090,6 +1112,7 @@ form.contact {
     clear:both;
     color:#fff;
     text-decoration: none;
+    font-family: Gotham;
 }
 
 .contact .submit:hover {
@@ -1112,7 +1135,7 @@ header.results {
     margin:15px 0 10px;
     padding: 0 0 10px;
     border-bottom: 1px solid #000;
-    font-weight: 700;
+    font-family: GothamBold;
     float: left;
     width:100%;
 }
@@ -1140,6 +1163,7 @@ header.results {
     font-size: 30px;
     padding: 15px 0;
     color:#504C4C;
+    font-family: Gotham;
 }
 
 .resultsContent .stats .wins p {
@@ -1152,7 +1176,7 @@ header.results {
     padding:8px 0;
     margin: 0 0 2px;
     font-size: 18px;
-    font-weight: 700;
+    font-family: GothamBold;
     color:#000;
 }
 
@@ -1162,11 +1186,11 @@ header.results {
     height: 30px;
     padding: 0;
     background: #fff;
-    font-family: "Myriad Pro", "Trebuchet MS", arial, helvetica, sans-serif;
+    font-family: Gotham;
     text-indent: 0;
     margin: 0 auto;
     text-align: center;
-    width:265px;
+    width:300px;
 }
 
 .resultsContent {
@@ -1184,6 +1208,7 @@ header.results {
     font-size: 14px;
     color: black;
     margin: 25px 25px 0 25px;
+    font-family: Gotham;
 }
 
 .resultsContent .raceName {
@@ -1196,6 +1221,7 @@ header.results {
     top:25px;
     right:25px;
     font-size: 13px;
+    font-family: Gotham;
 }
 
 .faux-select.race_years {
@@ -1208,9 +1234,8 @@ header.results {
 }
 
 .faux-select.race_years .value {
-    font-family: "Myriad Pro", "Trebuchet MS", arial, helvetica, sans-serif;
+    font-family: Gotham;
     font-size: 28px;
-    font-weight: 300;
     padding-top:5px;
     padding-bottom:5px;
     padding-right:45px;
@@ -1227,7 +1252,7 @@ header.results {
 }
 
 .forum .postContent h2 {
-    font-weight: 700;
+    font-family: GothamBold;
 }
 
 .theForum {
@@ -1249,8 +1274,9 @@ header.results {
 }
 
 .raceInfo {
-    background: url(images/race_background.jpg) 0 0 no-repeat;
+    background: url(images/race_background.jpg) 0 0 no-repeat #000;
     float: left;
+    padding-bottom: 60px;
 }
 
 .raceInfo header {
@@ -1371,7 +1397,7 @@ header.results {
 .raceInfo .courseDescription {
     float: left;
     width:878px;
-    margin: 0 40px 60px 40px;
+    margin: 0 40px 0 40px;
 }
 
 .raceInfo .courseDescription aside {
@@ -1472,6 +1498,40 @@ header.results {
     background: rgba(255,255,255,.6);
 }
 
+.race .sponsors {
+    width:938px;
+    margin: 10px;
+    float: left;
+}
+
+.race .sponsors header {
+    background-position: 0 0;
+    float: left;
+    width:100%;
+}
+
+.race .sponsors header h3 {
+    background: none;
+    text-indent: 0;
+    font-family: GothamBold;
+    font-size: 18px;
+    text-transform: uppercase;
+    float: left;
+    margin: 30px 0;
+}
+
+.race .sponsors ul {
+    display: block;
+    float: left;
+    text-align: center;
+    width: 840px;
+    margin: 0 49px;
+}
+
+.race .sponsors li {
+    display: inline-block;
+    margin: 0 14px;
+}
 
 /* Fancybox */
 .fancybox-tmp iframe, .fancybox-tmp object {

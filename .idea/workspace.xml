@@ -29,7 +29,7 @@
       <file leaf-file-name="class.raceHelper.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/classes/class.raceHelper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="28" selection-start="1470" selection-end="1470" vertical-scroll-proportion="-22.375">
+            <state line="40" column="28" selection-start="1470" selection-end="1470" vertical-scroll-proportion="-24.875">
               <folding />
             </state>
           </provider>
@@ -38,16 +38,34 @@
       <file leaf-file-name="page-race.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/page-race.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="33" selection-start="1782" selection-end="1789" vertical-scroll-proportion="-26.75">
+            <state line="53" column="35" selection-start="1791" selection-end="1791" vertical-scroll-proportion="-14.875">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="wp-config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/echelon_wp/wp-config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="35" selection-start="876" selection-end="888" vertical-scroll-proportion="-0.6666667">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1308" column="26" selection-start="23239" selection-end="23239" vertical-scroll-proportion="0.16989568">
+            <state line="832" column="20" selection-start="15493" selection-end="15493" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="5" selection-start="1317" selection-end="1317" vertical-scroll-proportion="0.87082726">
               <folding />
             </state>
           </provider>
@@ -81,7 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/classes/class.usacResultsScraper.php" />
         <option value="$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/classes/class.markupHelper.php" />
         <option value="$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/content-clean.php" />
         <option value="$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/page-strava.php" />
@@ -97,6 +114,7 @@
         <option value="$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/classes/class.raceHelper.php" />
         <option value="$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/page-race.php" />
         <option value="$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/style.css" />
+        <option value="$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/header.php" />
       </list>
     </option>
   </component>
@@ -211,62 +229,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Siskiyou-Velo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Siskiyou-Velo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sonicboom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sbr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Siskiyou-Velo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Siskiyou-Velo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sonicboom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sbr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -513,13 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/echelon_wp/wp-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="38" selection-start="891" selection-end="891" vertical-scroll-proportion="0.021929825">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sonicboom/test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="30" selection-end="30" vertical-scroll-proportion="0.04249292">
@@ -583,13 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/classes/class.raceHelper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="28" selection-start="1470" selection-end="1470" vertical-scroll-proportion="-22.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="89" selection-end="102" vertical-scroll-proportion="-1.875">
@@ -597,16 +545,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/classes/class.raceHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="28" selection-start="1470" selection-end="1470" vertical-scroll-proportion="-24.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/page-race.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="33" selection-start="1782" selection-end="1789" vertical-scroll-proportion="-26.75">
+        <state line="53" column="35" selection-start="1791" selection-end="1791" vertical-scroll-proportion="-14.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/echelon_wp/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="35" selection-start="876" selection-end="888" vertical-scroll-proportion="-0.6666667">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1308" column="26" selection-start="23239" selection-end="23239" vertical-scroll-proportion="0.16989568">
+        <state line="832" column="20" selection-start="15493" selection-end="15493" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="5" selection-start="1317" selection-end="1317" vertical-scroll-proportion="0.87082726">
           <folding />
         </state>
       </provider>

@@ -59,13 +59,15 @@ get_header();
 
         <section class="sponsors">
             <header>
-                <h3><?=$race->date->year;?> Sponsors</h3>
+                <h3><?=$race->date->year;?> Race Sponsors</h3>
             </header>
 
             <ul>
                 <?php foreach ($race->sponsors as $sponsor) { ?>
                 <li>
-                    <a target="_blank" href="<?=$sponsor['website_url'];?>"><?=$sponsor['company_name'];?></a>
+                    <a target="_blank" href="<?=$sponsor['website_url'];?>">
+                        <img src="<?=$sponsor['logo'];?>" alt="<?=$sponsor['company_name'];?>" />
+                    </a>
                 </li>
                 <?php } ?>
             </ul>
