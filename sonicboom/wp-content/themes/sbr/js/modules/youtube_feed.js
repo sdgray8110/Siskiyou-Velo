@@ -23,7 +23,6 @@
                 dataType: 'jsonp',
                 success: function(data) {
                     options.data = data;
-                    console.log(data);
                     renderFeed();
                 }
             })

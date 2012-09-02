@@ -1,4 +1,5 @@
-<?php $sponsorData = new sponsorHelper(); ?>
+<?php
+$sponsorData = new sponsorHelper(); ?>
 
 <div id="footer">
     <ul>
@@ -29,7 +30,11 @@
                 {{each(i) entry }}
                     <li class="carouselItem">
                         <div class="video">
-                            <div class="thumbnail" style="background:url(${media$group.media$thumbnail[0].url})"></div>
+                            <?php if (backgroundSizeSupported()) { ?>
+                                <div class="thumbnail" style="background:url(${media$group.media$thumbnail[0].url})"></div>
+                            <?php } else { ?>
+                                <img class="thumbnail" src="${media$group.media$thumbnail[0].url}" />
+                            <?php } ?>
                             <a href="http://www.youtube.com/embed/${global.embeddableVideoURL(id.$t)}?autoplay=1" class="play"></a>
                         </div>
 
