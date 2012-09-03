@@ -347,7 +347,7 @@ textarea.text {
 }
 
 #header #menu-item-82 {
-    margin-left:93px;
+    margin-left:90px;
 }
 
 #header #menu-item-122 {
@@ -636,7 +636,8 @@ textarea.text {
     font-family: Gotham;
 }
 
-.resultsContent dt.placing_1 {
+.resultsContent dt.placing_1,
+.newsUpdates dt.race_win {
     background: url(images/diagonal_grid_red.png);
 }
 

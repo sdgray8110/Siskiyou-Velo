@@ -59,7 +59,7 @@ function get_fields($post_id = false)
 *	@since 1.0.3
 * 
 *-------------------------------------------------------------------------------------*/
- 
+
 function ac_get_field($field_name, $post_id = false)
 { 
 	global $post, $acf; 

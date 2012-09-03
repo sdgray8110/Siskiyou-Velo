@@ -36,8 +36,13 @@ class homepageHelper {
             'numberposts' => $postCount,
             'post_type' => 'post'
         );
+        $entries = $this->query_posts($args);
 
-        return $this->query_posts($args);
+        foreach ($entries->posts as &$post) {
+            $post->blogentry = new blogHelper($post->id);
+        }
+
+        return $entries;
     }
 
     private function get_posts_by_author($id) {

@@ -47,7 +47,7 @@ $sponsorData = new sponsorHelper(); ?>
 </script>
 
 <script id="blogMenuTemplate" type="text/x-jquery-tmpl">
-    <h3 class="monthlyPosts"><a id="monthSelection">${blog.activeMonth}</a></h3>
+    <h3 class="monthlyPosts"><a id="monthSelection">${blog.activeMonth} News</a></h3>
     <ul class="postsMenu">
         {{each(i, month) global.pageData.postmenuData.months}}
         <li><a>${month}</a></li>

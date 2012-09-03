@@ -4,7 +4,7 @@ $blogData = blogHelper::get_sidebar_posts();
 
 <div class="sidebar">
     <div id="monthlyPosts">
-        <h3 class="monthlyPosts"><a id="monthSelection"><?=$blogData->months[0];?></a></h3>
+        <h3 class="monthlyPosts"><a id="monthSelection"><?=$blogData->months[0];?> News</a></h3>
         <ul class="postsMenu">
             <?php foreach($blogData->months as $month) {?>
             <li><a><?=$month;?></a></li>

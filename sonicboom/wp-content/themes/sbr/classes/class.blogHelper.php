@@ -9,6 +9,7 @@ class blogHelper {
         $this->permalink = get_permalink($id);
         $this->photos = $this->get_photo_gallery();
         $this->author_archive_link = $this->get_author_link();
+        $this->metadata = $this->get_meta();
     }
 
     private function get_author() {
@@ -99,5 +100,13 @@ class blogHelper {
         }
 
         return $postData;
+    }
+
+    private function get_meta() {
+        $data = new stdClass();
+        $data->win = ac_get_field('race_win', $this->id);
+        $data->classname = $data->win[0] ? 'race_win' : '';
+
+        return $data;
     }
 }

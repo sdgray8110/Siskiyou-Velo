@@ -33,7 +33,7 @@ get_header();
             <dl>
             <?php for ($i=0;$i<count($blogPosts);$i++) { ?>
             <?php $post = $blogPosts[$i]; ?>
-                <dt><?=$post->date;?></dt>
+                <dt class="<?=$post->blogentry->metadata->classname;?>"><?=$post->date;?></dt>
                 <dd class="<?=$hompageData->oddEven($i);?>">
                     <p class="title"><?=$post->title;?></p>
                     <?php if ($post->category == 'race-report') { ?>
