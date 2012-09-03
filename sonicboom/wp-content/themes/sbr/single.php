@@ -9,7 +9,7 @@ get_header(); ?>
     <div class="single-blog-content">
         <div class="postContent">
             <article>
-                <header>
+                <header class="<?=$pageData->metadata->classname;?>">
                     <h2><?=$pageData->title;?></h2>
                     <p><?=$pageData->date->date;?> | by <a href="<?=$pageData->author_archive_link;?>"><?=$pageData->author->firstname;?> <?=$pageData->author->lastname;?></a></p>
                 </header>

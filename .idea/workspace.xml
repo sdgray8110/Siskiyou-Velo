@@ -26,28 +26,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="api.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sonicboom/wp-content/plugins/advanced-custom-fields/core/api.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="6" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wp-config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/echelon_wp/wp-config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="25" selection-start="1129" selection-end="1129" vertical-scroll-proportion="-6.25">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1740" column="4" selection-start="30972" selection-end="30972" vertical-scroll-proportion="0.36738703">
+            <state line="726" column="0" selection-start="13828" selection-end="13828" vertical-scroll-proportion="0.80943024">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single-race.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/echelon_wp/wp-content/themes/echelon/single-race.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/single.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="64" selection-start="294" selection-end="294" vertical-scroll-proportion="-1.607595">
               <folding />
             </state>
           </provider>
@@ -126,7 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="/private/etc/apache2/httpd.conf" />
         <option value="$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/classes/class.raceHelper.php" />
         <option value="$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/page-race.php" />
         <option value="$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/js/modules/youtube_feed.js" />
@@ -141,6 +140,7 @@
         <option value="$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/header.php" />
         <option value="$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/sidebar-blog.php" />
         <option value="$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/footer.php" />
+        <option value="$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/single.php" />
         <option value="$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/style.css" />
       </list>
     </option>
@@ -177,6 +177,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -277,16 +287,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Favorites" />
     </panes>
   </component>
@@ -302,9 +302,10 @@
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="FullScreen" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig" serverName="SV" serverId="df8ed9af-71d9-4667-adc1-b0253c30f80d" promptOnLocalOverwrite="false" autoUpload="true">
     <servers>
@@ -427,7 +428,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25896415" sideWeight="0.99689925" order="7" side_tool="false" content_ui="tabs" />
@@ -436,7 +437,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994455" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21462893" sideWeight="0.13745387" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11262554" sideWeight="0.7372881" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32424676" sideWeight="0.7410359" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292683" sideWeight="0.7410359" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -521,16 +522,6 @@
     <find-history />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/js/modules/youtube_feed.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="40" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/archive.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="57" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/page-results.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -553,23 +544,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sonicboom/wp-content/plugins/advanced-custom-fields/core/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="6" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.0">
+        <state line="67" column="6" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/echelon_wp/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="25" selection-start="1129" selection-end="1129" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="50" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="14" column="50" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/sidebar-blog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="87" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="87" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/js/blog.js">
@@ -579,9 +571,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="26" selection-start="1755" selection-end="1755" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="50" column="26" selection-start="1755" selection-end="1755" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/classes/class.homepageHelper.php">
@@ -599,16 +589,23 @@
         <state line="396" column="34" selection-start="14473" selection-end="14498" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/echelon_wp/wp-config.php">
+    <entry file="file://$PROJECT_DIR$/echelon_wp/wp-content/themes/echelon/single-race.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="25" selection-start="1129" selection-end="1129" vertical-scroll-proportion="-6.25">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="64" selection-start="294" selection-end="294" vertical-scroll-proportion="-1.607595">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sonicboom/wp-content/themes/sbr/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1740" column="4" selection-start="30972" selection-end="30972" vertical-scroll-proportion="0.36738703">
+        <state line="726" column="0" selection-start="13828" selection-end="13828" vertical-scroll-proportion="0.80943024">
           <folding />
         </state>
       </provider>
