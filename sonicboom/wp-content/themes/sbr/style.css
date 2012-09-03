@@ -60,10 +60,6 @@ table {
 	border-spacing: 0;
 }
 
-strong {
-    font-weight: 700;
-}
-
 a {
     color:#2E466F;
     cursor: pointer;
@@ -223,7 +219,6 @@ textarea.text {
     color:#000;
     position: relative;
     z-index: 3;
-    font-weight: 700;
     font-family: GothamBold;
 }
 
@@ -1391,7 +1386,6 @@ header.results {
 
 .raceInfo .raceOverview .men strong,
 .raceInfo .raceOverview .women strong {
-    font-weight: 300;
     font-family: GothamBold
 }
 
