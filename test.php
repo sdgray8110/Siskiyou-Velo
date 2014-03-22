@@ -1,1 +1,1 @@
-<div id="foo">Hello Bitch!</div>
+<div id="foo">Hello World!</div>
